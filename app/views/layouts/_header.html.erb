@@ -1,5 +1,18 @@
+<head>
+<script src="resource/js/jquery-1.11.0.js"></script>
+<script src="resources/js/bootstrap.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('dropdown-toggle').dropdown()
+});
+</script>
+</head>
+
 <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -8,9 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
-      <img alt="Dot" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,f_auto,h_1440,q_90,w_720/v1/81759/DOT_Logo_1_nxwuis.png"  width="90px">
-      </a>
+        <a class="navbar-brand" ><%= link_to(image_tag("logo.png", :size => "120x45", :alt=>"Dot Logo"), root_path, :title=>"Return Home", class: 'navbar-brand') %></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,5 +32,5 @@
         <li><%= link_to "About", about_path %></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
 </nav>
