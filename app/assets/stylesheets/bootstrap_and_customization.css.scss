@@ -12,18 +12,44 @@ $jumbotron-bg:                     white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 .center {
      text-align: center;
 }
 
 .navbar-brand {
      font-weight: bold;
+     position: absolute; 
+     top: -10px;
 }
+
+
 
 .checkbox input[type="checkbox"] {
   margin-left: 0;
 }
+
+
+.navbar { margin-bottom:0px !important; }
+.carousel-caption { margin-top:0px !important }
+
+
+.jumbotron{
+background-image:url();
+background-repeat:no-repeat;
+background-position:center;
+background-size: cover;
+padding:200px 0 140px 0;
+margin-bottom:70px;
+height: 1000px;
+width: 100%;
+position: relative;
+top: 100px;
+
+}
+
+
+
 
 
 
