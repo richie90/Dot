@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
   root "pages#home"
   get "about" => "pages#about" # creates about_path
+  get "mypage" => "pages#mypage" # creates mypage_path 
+  get "news" => "pages#news"  # creates news_path
+  get "product" => "pages#product" # creates product_path
 
     devise_scope :user do
     get '/users/sign_out' => 'devise/sessions#destroy'
