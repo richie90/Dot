@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5', '>= 3.5.3'
 gem 'iamport', github: 'iamport/iamport-rest-client-ruby'
+gem "paperclip", "~> 4.3"
 
 group :development, :test do
   gem 'sqlite3'
