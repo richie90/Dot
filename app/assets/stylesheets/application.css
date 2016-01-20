@@ -16,11 +16,7 @@
  */
  
 
-$primary-light-blue: #8DB9ED;
-$primary-line-color: #ccc;
-* {
-  box-sizing: border-box
-}
+
 html, body {
   height: 100%
 }
@@ -31,57 +27,57 @@ body {
 	margin: auto;
   display: flex;
   flex-flow: column nowrap;
-  //This justify-content is essentially unnecessary in Firefox and Chrome due to the flex: 1 1 auto on the main.  However, it's needed to push the footer down on IE11
-  justify-content: space-between
+  
+justify-content: space-between;
 }
 ul {
-  list-style: none
+  list-style: none;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 .generic-anchor {
 	color: $primary-light-blue;
 	&:visited {
-		color: $primary-light-blue
+		color: $primary-light-blue;
 	}
 	&:hover {
-		color: $primary-line-color
+		color: $primary-line-color;
 	}
 }
 .flex-rw {
   display: flex;
   flex-flow: row wrap;
 }
-//This main is mostly to push the footer to the bottom and for demo purposes.
-main {
-  flex: 1 1 auto; //For IE11
+
+ {
+  flex: 1 1 auto; 
   display: flex;
   align-items: center;
   justify-content: center;
   font: 10em "Oswald", sans-serif;
   color: rgb(155,155,155);
-  line-height: 1
+  line-height: 1;
 }
 footer {
   background: rgb(55,55,55);
   margin-top: auto;
-  width: 100%
+  width: 100%;
 }
 .footer-list-top {
-  width: 33.333%
+  width: 33.333%;
 }
 .footer-list-top > li {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
-  font: 2.3vw "Oswald", sans-serif
+  font: 2.3vw "Oswald", sans-serif;
 }
 .footer-list-anchor {
-  font: 1.3em "Open Sans", sans-serif
+  font: 1.3em "Open Sans", sans-serif;
 }
 .footer-social-section {
   width: 100%;
@@ -97,29 +93,29 @@ footer {
   top: 50%;
   left: 10px;
   border-top: 1px solid $primary-line-color;
-  width: calc(100% - 20px)
+  width: calc(100% - 20px);
 }
 .footer-social-overlap {
   position: relative;
   z-index: 2;
   background: rgb(55,55,55);
-  padding: 0 20px
+  padding: 0 20px;
 }
 .footer-social-connect {
   display: flex;
   align-items: center;
   font: 3.5em "Oswald", sans-serif;
-  color: #fff
+  color: #fff;
 }
 .footer-social-small {
   font-size: 0.6em;
-  padding: 0px 20px
+  padding: 0px 20px;
 }
 .footer-social-overlap > a {
-  font-size: 3em
+  font-size: 3em;
 }
 .footer-social-overlap > a:not(:first-child) {
-  margin-left: 0.38em
+  margin-left: 0.38em;
 }
 .footer-bottom-section {
   width: 100%;
@@ -137,7 +133,7 @@ footer {
 }
 .footer-address {
   display: inline;
-  font-style: normal
+  font-style: normal;
 }
 .footer-bottom-copyright{
   font-size: 13px;
@@ -149,43 +145,43 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .footer-list-header {
-    font-size: 2em
+    font-size: 2em;
   }
   .footer-list-anchor {
-    font-size: 1.1em
+    font-size: 1.1em;
   }
   .footer-social-connect {
-    font-size: 2.5em
+    font-size: 2.5em;
   }
   .footer-social-overlap > a {
-    font-size: 2.24em
+    font-size: 2.24em;
   }
   .footer-bottom-wrapper {
-    font-size: 1.3em
+    font-size: 1.3em;
   }
 }
 @media only screen and (max-width: 568px) {
   main {
-    font-size: 5em
+    font-size: 5em;
   }
   .footer-list-top {
-    width: 100%
+    width: 100%;
   }
   .footer-list-header {
     font-size: 3em;
   }
   .footer-list-anchor {
-    font-size: 1.5em
+    font-size: 1.5em;
   }
   .footer-social-section {
-    justify-content: center
+    justify-content: center;
   }
   .footer-social-section::after {
-    top: 25%
+    top: 25%;
   }
   .footer-social-connect {
     margin-bottom: 10px;
-    padding: 0 10px
+    padding: 0 10px;
   }
   .footer-social-overlap {
     display: flex;
@@ -193,46 +189,46 @@ footer {
   }
   .footer-social-icons-wrapper {
     width: 100%;
-    padding: 0
+    padding: 0;
   }
   .footer-social-overlap > a:not(:first-child) {
     margin-left: 20px;
   }
   .footer-bottom-section {
-    padding: 0 5px 10px 5px
+    padding: 0 5px 10px 5px;
   }
   .footer-bottom-wrapper {
     text-align: center;
     width: 100%;
-    margin-top: 10px
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 480px) {
   .footer-social-overlap > a {
-    margin: auto
+    margin: auto;
   }
   .footer-social-overlap > a:not(:first-child) {
     margin-left: 0;
   }
   .footer-bottom-rights {
-    display: block
+    display: block;
   }
 }
 @media only screen and (max-width: 320px) {
   .footer-list-header {
-    font-size: 2.2em
+    font-size: 2.2em;
   }
   .footer-list-anchor {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
   .footer-social-connect {
-    font-size: 2.4em
+    font-size: 2.4em;
   }
   .footer-social-overlap > a {
-    font-size: 2.24em
+    font-size: 2.24em;
   }
   .footer-bottom-wrapper {
-    font-size: 1.3em
+    font-size: 1.3em;
   }
 }
 
