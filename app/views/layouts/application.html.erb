@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <head>
   <title>Dot</title>
        <%= stylesheet_link_tag "application", media: "all" %>
@@ -7,7 +8,7 @@
        <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body class="<%= controller_name %> <%= action_name %>">
     
     <%= render 'layouts/header' %>
     
@@ -16,6 +17,70 @@
       <% end %>
       <%= yield %>
     
-
+</div>
 </body>
+
+
+
+
+
+
+
+<footer class="flex-rw">
+  
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">ABOUT</h4></li>
+    <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">HISTORY</a></li>
+    
+    <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+
+    <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">DOT INCORPORATION.</h4></li>
+
+<section class="footer-social-section flex-rw">
+      
+      <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+      <a href="https://www.facebook.com/dotsmartbraillewatch/?fref=ts" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook-square"></i></a>
+      <a href="https://twitter.com/smartdotbraille" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+      </span>
+
+  </section>
+  <li><div class="footer-bottom-wrapper">
+    <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacy</a>
+      </div></li>
+
+<section class="footer-bottom-section flex-rw">
+<div class="footer-bottom-copyright">   
+<i class="fa fa-copyright" role="copyright">
+ 
+  
+</i> Copyright 2015 Dot Incorporation. <address class="footer-address" role="company address"><br> Seoul, South Korea </address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+    </div>
+    
+  </section>
+    
+  </ul>
+
+
+  <ul class="footer-list-top">
+    <li id='help'>
+      <h4 class="footer-list-header">HELP</h4></li>
+    <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+    <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+    <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
+    <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+  </ul>
+  
+  
+
+</footer>
+
+
 </html>
+
