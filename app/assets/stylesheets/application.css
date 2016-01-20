@@ -19,6 +19,7 @@
 
 html, body {
   height: 100%;
+
 }
 body {
 	font: 11px, "Open Sans", sans-serif;
@@ -28,6 +29,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    
 }
 ul {
     list-style: none;
