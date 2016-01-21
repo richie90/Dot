@@ -45,7 +45,7 @@ a {
 }
 
 footer {
-  background-color: #373737;
+  color: #373737;
   margin-top: auto;
   width: 100%;
 }
@@ -83,7 +83,8 @@ footer {
 .footer-social-overlap {
   position: relative;
   z-index: 2;
-  background-color: #373737;
+  
+  color: #373737;
   padding: 0 20px;
 }
 .footer-social-connect {
