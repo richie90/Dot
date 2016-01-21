@@ -1,9 +1,7 @@
 .title { 
-<<<<<<< HEAD
+
   font-size: 45px;
-=======
   font-size: 50px;
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
   font-weight: bold;
   padding-top:130px;
   padding-left:220px; 
@@ -14,11 +12,9 @@
   color: black;  
 }
 .text { 
-<<<<<<< HEAD
+
   font-size: 30px;
-=======
   font-size: 33px;
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
   color:#e1542c;
   margin: 0 auto; 
   padding-top: 290px; 
@@ -32,14 +28,10 @@
   font-weight: bold;
   width: 200px;
   text-align: center;
-<<<<<<< HEAD
   line-height: 4;
   margin-top: 80px;
   margin-left: 220px; 
-=======
   line-height: 4; 
-  position: absolute;
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
   bottom: 0;
   left: calc(50% - 100px);
   opacity: 0;

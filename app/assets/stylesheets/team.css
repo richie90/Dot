@@ -2,24 +2,18 @@
 ===========================*/
 
 h1.team-h1 {
-<<<<<<< HEAD
   
   text-align: center;
   font-family: georgia;
   font-style: italic;  
-  
-=======
-  margin: 0;
-  position: absolute;
   top: -16px;
   text-align: center;
   left: 40%;
   font-family: georgia;
   font-style: italic;
-  background-color: white;
   padding: 0px 20px;
-  color: #222; 
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
+  
+
 }
 
 .cf:before,
@@ -47,11 +41,7 @@ h1.team-h1 {
   border-bottom: 1px #e9e9e9 solid;
   padding-top: 5em;
   padding-bottom: 5em;
-<<<<<<< HEAD
-  
-=======
   margin-top: 3em;
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
   position: relative;
 }
 
@@ -59,15 +49,13 @@ h1.team-h1 {
   width: 16%;
   float: left;
   text-align: center;
-<<<<<<< HEAD
+
   margin-top: 100px;
-=======
->>>>>>> 30207ea92e78d17af4a3ea1b79662ea235065332
+
   margin-right: 5%;
 }
 
 .team-member:last-child {margin-right: 0;}
-
 
 .team-member span,
 .team-member h3 {

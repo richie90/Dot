@@ -22,13 +22,14 @@ html, body {
 
 }
 body {
-	font: 11px, "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+	font-size: 11px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	margin: auto;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
     
 }
 ul {
@@ -88,7 +89,8 @@ footer {
 .footer-social-connect {
   display: flex;
   align-items: center;
-  font: 3.5em "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5em;
   color: #fff;
 }
 .footer-social-small {
