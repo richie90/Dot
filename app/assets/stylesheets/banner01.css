@@ -1,0 +1,45 @@
+.left_watch{
+  margin:130px 0 150px 0; 
+  float:left;
+  text-align:left; 
+  position: relative;
+}
+
+.right_watch{
+  margin:130px 0 150px 0; 
+  float:right;
+  text-align:right;
+  position: relative;
+
+}
+
+.top{  
+  text-align:center;
+  color: #e1542c;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top:230px;
+
+    
+}
+.top2{
+  text-align:center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:40px;
+  
+  
+}
+
+.top3 {  
+  text-align:center;
+  color: silver;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top:80px;
+
+    
+}
+
+
