@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="application.css" media="all" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <head>
   <title>Dot</title>
@@ -15,71 +16,41 @@
       <% flash.each do |name, msg| %>
          <%= content_tag(:div, msg, class: "alert alert-info") %>
       <% end %>
-      <%= yield %>
-    
-</div>
-</body>
-
-
-
-
-
-
-
-<footer class="flex-rw">
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">ABOUT</h4></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">HISTORY</a></li>
-    
-    <li><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
-
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">DOT INCORPORATION.</h4></li>
-
-<section class="footer-social-section flex-rw">
-      
-      <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
-      <a href="https://www.facebook.com/dotsmartbraillewatch/?fref=ts" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook-square"></i></a>
-      <a href="https://twitter.com/smartdotbraille" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
-      <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
-      </span>
-
-  </section>
-  <li><div class="footer-bottom-wrapper">
-    <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | <a href="#" class="generic-anchor" rel="nofollow">Privacy</a>
-      </div></li>
-
-
-<div class="footer-bottom-copyright">   
-<i class="fa fa-copyright" role="copyright"></i> Copyright 2015 Dot Incorporation. 
-<address class="footer-address" role="company address"><br> #2002 Ace High-end Tower 7, 67 Gasan digital 2-ro, Geumcheon-gu, Seoul, South Korea </address>
-<span class="footer-bottom-rights"> <br> - All Rights Reserved - </span>
+      <%= yield %>    
 </div>
 
-    
- 
-    
-  </ul>
+<footer>
+<div class="container-fluid outside-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="footer-links">
+          <li><a href="#">ORDER</a></li>
+          <li><a href="#">RECRUITMENT</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">TERMS</a></li>
+          <li><a href="#">PRIVACY</a></li>
+        </ul>
+      </div>
 
-
-  <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">HELP</h4></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='order-tracking'><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
-  </ul>
-  
-  
-
+      <div class="col-sm-6 soc-links right">
+        <section class="footer-social-section">
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+        <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+        <a href="https://www.facebook.com/dotsmartbraillewatch/?fref=ts" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/smartdotbraille" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+        </span>
+        </section>      
+      </div>
+    </div>
+        <div class="row copyright">
+          <div class="col-sm-12 ">
+            <h4>© Copyright 2016 Dot Incorporation. All Rights Reserved. </h4>
+          </div>
+        </div>
+  </div>
 </footer>
-
-
+</body>
 </html>
-
