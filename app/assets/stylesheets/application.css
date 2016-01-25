@@ -30,6 +30,7 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   position: static;
+  bottom: 0;
     
 }
 ul {

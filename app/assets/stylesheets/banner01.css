@@ -2,14 +2,14 @@
   margin:130px 0 150px 0; 
   float:left;
   text-align:left; 
-  position: relative;
+  position: static;
 }
 
 .right_watch{
   margin:130px 0 150px 0; 
   float:right;
   text-align:right;
-  position: relative;
+  position: static;
 
 }
 
@@ -19,6 +19,7 @@
   font-size: 26px;
   font-weight: bold;
   margin-top:230px;
+  position: static;
 
     
 }
@@ -28,6 +29,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-top:40px;
+  position: static;
   
   
 }
@@ -38,6 +40,7 @@
   font-size: 40px;
   font-weight: bold;
   margin-top:80px;
+  position: static;
 
     
 }
