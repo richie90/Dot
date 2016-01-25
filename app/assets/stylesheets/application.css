@@ -78,7 +78,8 @@ ul.footer-links {
 }
 
 .footer-links li a:hover {
-  color: #5BADE8;
+  color: #e1542c;
+  text-decoration: none;
 }
 .outside-footer {
   background-color: #373737;
