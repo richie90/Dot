@@ -17,7 +17,7 @@ p {
     margin-top:130px;
 }
 .product{
-    margin-top:70px;
+    margin-top:60px;
 }
 
 .img-responsive{
@@ -34,7 +34,7 @@ p {
  text-align: right;
 
   }
-input {
+input[type=number] {
   line-height: 22px;
   width: 90px;
   text-align: center;
