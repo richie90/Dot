@@ -1,9 +1,10 @@
 #header-carousel .carousel-inner .item { 
   background-size: cover; 
   background-position: center; 
-  width: 100%; 
+  width: auto; 
   height: 900px;
   margin-top: 40px;
+
   
 }
 
