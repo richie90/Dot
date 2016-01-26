@@ -42,7 +42,8 @@
 .footer-right a {
   
   display: inline-block;
-  text-align: right;
+  text-align: center;
+
 }
 .footer-right p {
   
@@ -50,7 +51,8 @@
   font-size: 1em;
   letter-spacing: 1px;
   margin: 1em 0 0;
-  text-align: right;
+  text-align:center;
+  margin-left: 35px;
   
 }
 .footer-right p a {
@@ -58,36 +60,28 @@
   color: #AEE3EF;
   font-size: 1em;
   letter-spacing: 1px;
-  text-align: right;
+  text-align: center;
+  margin-left: 35px;
   
 }
 .footer-right p a:hover{
   color: #fff;
+  margin-left: 35px;
 }
 .icons {
-    margin-top: 50px;
-    margin-left: 20px; 
-    
+    margin-top: 35px;
+    margin-right: 60px;
+    font-size: 27px; 
+    text-align: center;
+
+   
 }
 .icons ul li{
   display:inline-block;
   margin:0 .2em;
+
 }
-.icons ul li a.twitter{
-  background: url(/assets/icons.png) no-repeat 0px 0px;
-  height: 30px;
-  display: block;
-  width: 30px;
-}
-.icons ul li a.facebook{
-  background: url(/assets/icons.png) no-repeat -33px 0px;
-}
-.icons ul li a.chrome{
-  background: url(/assets/icons.png) no-repeat -66px 0px;
-}
-.icons ul li a.pinterest{
-  background: url(/assets/icons.png) no-repeat -99px 0px;
-}
+
 .icons ul li a:hover {
     transform: rotatey(360deg);
   -webkit-transform: rotatey(360deg);
