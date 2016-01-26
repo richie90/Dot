@@ -1,11 +1,56 @@
+h2{
+	font-weight: bold;
+	color: #e1542c;
+
+}
+p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.product{
+	margin-top:120px;
+}
+
+.img-responsive{
+ width: auto;	
+}
+.input-small {
+	width: 95px;
+	text-align: center;
+}
+.item_price{
+	color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0 5px;
+	display:block;
+}
+
+.btn_form a {
+	margin:5px;
+	float: right;
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #F07818;
+    background: #F07818;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.btn_form a:hover {
+    background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
 
 
 
 
-
-
-
-
-
-  
-  
