@@ -1,49 +1,3 @@
-<!DOCTYPE htmel>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="product.css" media="all" type="text/css">
-    <script src="javascript/production.js"></script>
-</head>
-  
-  	  <!--//single-page-->
-	<div class="single">
-		<div class="container">
-			<div class="single-grids">				
-				<div class="col-md-6 single-grid">		
-					<ul class="slides">
-						<li data-thumb="assets/watch1.png">
-						<div class="thumb-image"> <img src="assets/watch1.png" data-imagezoom="true" class="img-responsive"> </div>
-						</li>							
-					</ul>					
-				</div>	
-				<div class="col-md-6 single-grid simpleCart_shelfItem">	
-				<div class="product">	
-					<div class="product-title">DOT WATCH</div>					
-					<div class="product-price">299.00</div>
-					
-					<p>The first braille smart watch. You can experience the vast wrold with your fingertips. Affordable E-Braille reader for visually impaired people around the globe With Active Braille Technology.</p>					
-					<p class="qty"> Quantity:  </p>						
-					<div class="product-quantity">
-                    <input type="number" value="1" min="1">
-                    </div> 
-					<div class="product-line-price">299.00</div>
-					<div class="btn_form">
-						<a href="#" class="add-cart item_add">BUY NOW</a>	
-					</div>
-
-				</div>					
-				</div>
-				
-				
-			</div>
-		</div>
-	</div>  
-
-</html>
-
-
-<script>
 /* Set rates + misc */
 var taxRate = 0.05;
 var shippingRate = 15.00; 
@@ -121,5 +75,3 @@ function removeItem(removeButton)
     recalculateCart();
   });
 }
-
-</script>
