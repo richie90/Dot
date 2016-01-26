@@ -29,11 +29,17 @@ p {
 }
 
 .product-quantity {  
- padding-top: 28px;
+ padding-top: 24px;
  margin-right: 80px;
  text-align: right;
 
   }
+input {
+  line-height: 22px;
+  width: 90px;
+  text-align: center;
+}
+
 
 .product-price{
     color: #000;
@@ -46,7 +52,8 @@ p {
 .product-line-price {
     font-size: 23px;
     padding-top: 52px;    
-    float: left;  
+    float: left;
+    text-align: left;  
 
   }
 
