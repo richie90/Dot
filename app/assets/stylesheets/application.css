@@ -99,7 +99,30 @@ a {
     color:#5D4B33;
     text-decoration: none;
 }
+.update-btn {
 
+    margin:5px;   
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #e1542c;
+    background: #e1542c;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.update-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
 .login-btn {
     float: right;    
     outline: none;
