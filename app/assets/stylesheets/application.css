@@ -39,12 +39,19 @@ ul {
 a {
     text-decoration: none;
 }
+
+
+.panel-default{
+  margin-top: 150px;
+}
+
 .col-md-6 h4{
   font-weight: bold;
   font-size: 22px;
 }
 .col-md-6{
-  text-align: justify;
+  text-align: center;
+
 }
 .panel-body{
   margin-top: 10px;
@@ -57,7 +64,7 @@ a {
   margin-top: 20px;
 }
 .acount-btn {
-    float: right; 
+    float: center; 
     margin:5px;   
     outline: none;
     display: inline-block;
@@ -103,4 +110,13 @@ a {
     border-color: #5D4B33;
     color:#5D4B33;
     text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  .col-md-6{
+  text-align: justify;
+  }
+  .acount-btn{
+    float: right;
+  }
 }
