@@ -27,7 +27,11 @@ border-bottom: 1px solid #989898;
 
 }
 
+.acount-btn{
+	float:right;
+	margin-right: 45px;
 
+}
 
 .navbar { margin-bottom:0px !important; }
 .carousel-caption { margin-top:0px !important }
@@ -38,6 +42,15 @@ border-bottom: 1px solid #989898;
 	} 
 
 
+@media screen and (min-width: 480px) {
+  .col-md-6{
+  text-align: justify;
+  }
+  .acount-btn{
+    float: right;
+  }
+  
+}
 
 
 
