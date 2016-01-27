@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="footer.css" media="all" type="text/css">
 <head>
   <title>Dot</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="footer.css" media="all" type="text/css">
        <%= stylesheet_link_tag "application", media: "all" %>
        <%= javascript_include_tag "default" "data-turbolinks-track"%>
        <%= csrf_meta_tags %>
@@ -13,8 +13,7 @@
     
     <%= render 'layouts/header' %>
     
-      <% flash.each do |name, msg| %>
-         <%= content_tag(:div, msg, class: "alert alert-info") %>
+      <% flash.each do |name, msg| %>         
       <% end %>
       <%= yield %>    
 </div>
@@ -32,12 +31,16 @@
         </ul>       
       </div>
       <div class="col-md-3 footer-left">
-        <h4>Manu</h4>
+        <h4>Menu</h4>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">MyPage</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/product">Product</a></li>
+          <li><a href="/news">News</a></li>         
+          <li><% if user_signed_in? %><a href="/mypage">MyPage</a>
+          <% else %>
+          <%= link_to "Sign Up", new_user_registration_path %>
+          <% end %> 
+          </li>
         </ul>
       </div>
       <div class="col-md-3 footer-left">

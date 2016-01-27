@@ -48,16 +48,7 @@ input[type=number] {
     margin: 20px 0 5px;
     display:block;
 }
-.line-separator{
 
-height:2px;
-width:88%;
-background:#717171;
-border-bottom:1px solid #313030;
-float: center;
-text-align: center;
-
-}
 
 .product-line-price {
     font-size: 23px;

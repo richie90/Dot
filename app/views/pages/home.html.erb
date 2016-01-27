@@ -12,41 +12,60 @@
 
 <!-- Carousel --> 
 <div id="header-carousel" class="carousel slide" data-ride="header-carousel-ride">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+
+  <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item" style="background-image: url('/assets/slide1.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-         <%= link_to "Pre-Order", product_path, class: "button" %>
+    <div class="item active" style="background-image: url('/assets/slide1.jpg');">
+      <div class="carousel-caption">
+        <div class="title">The First Braille Smartwatch</div>
+        <div class="text">With active braille technology</div>
+        <div class="more">
+          <%= link_to "Pre-Order", product_path, class: "button" %>
+        </div>
       </div>
     </div>
+
     <div class="item" style="background-image: url('/assets/slide2.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-         <%= link_to "Pre-Order", product_path, class: "button" %>
-    </div>
-  </div>
-    <div class="item" style="background-image: url('/assets/slide5.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-        
-        <%= link_to "Our Stroy", about_path, class: "button" %> 
-        
+      <div class="carousel-caption">
+        <div class="title">The First Braille Smartwatch</div>
+        <div class="text">With active braille technology</div>
+        <div class="more">
+          <%= link_to "Pre-Order", product_path, class: "button" %>
+        </div>
       </div>
     </div>
+
+    <div class="item" style="background-image: url('/assets/slide2.jpg');">
+      <div class="carousel-caption">
+        <div class="title">The First Braille Smartwatch</div>
+        <div class="text">With active braille technology</div>
+        <div class="more">
+          <%= link_to "Our Stroy", about_path, class: "button" %> 
+        </div>
+      </div>
+    </div>
+
     <div class="item" style="background-image: url('/assets/slide6.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-        <% if user_signed_in? %>
-          <%= link_to "Pre-Order", product_path, class: "button" %> 
-        <% else %>         
-          <%= link_to "Sign up", new_user_registration_path, class: "button" %>
-        <% end %> 
+      <div class="carousel-caption">
+        <div class="title">The First Braille Smartwatch</div>
+        <div class="text">With active braille technology</div>
+        <div class="more">
+          <% if user_signed_in? %>
+            <%= link_to "Pre-Order", product_path, class: "button" %> 
+          <% else %>         
+            <%= link_to "Sign up", new_user_registration_path, class: "button" %>
+          <% end %> 
+        </div>
       </div>
-    </div>
+    </div>    
   </div>
 </body>
   <!-- Controls -->
