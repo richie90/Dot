@@ -1,0 +1,165 @@
+/*-- blog --*/
+.blog-page{
+  margin: 100px 0 100px;
+  padding:5em 0;
+}
+
+.blog-page-grids {
+  margin-bottom: 3em;
+}
+.blog-page-grids-bot {
+  float: left;
+  width: 47%;
+}
+.blog-page-grid p span {
+    color:#E57057;
+}
+.blog-page-grids-bot1 {
+  float: right;
+  width: 50%;
+}
+.blog-page-grid {
+  float: left;
+}
+.blog-page-grid h3 {
+  margin: 0;
+  color: #1D1E1F;
+  font-size:1.5em;
+}
+.blog-page-grid h3 a{
+	color:#AAAAAA;
+	text-decoration:none;
+}
+.blog-page-grid h3 a:hover{
+	color:#3498db;
+	text-decoration:none;
+}
+.blog-page-grid p {
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  font-style: italic;
+}
+.blog-page-grid1 {
+  float: right;
+}
+.blog-page-grid1 p {
+  font-size: 1em;
+  margin: 1.5em 0 0;
+  color: #999;
+}
+.blog-page-grids-bot1 p {
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.8em;
+}
+.blog-pag:nth-child(2) {
+  margin: 4em 0;
+}
+.blog-page-grids-bot1 h4{
+	font-size:1.2em;
+    color:#E57057;
+	margin:0 0 1em;
+	text-transform:capitalize;
+}
+.blog-page-grid1 p a {
+  color:#E57057;
+}
+.blg-pg {
+  margin: 4em 0 0;
+
+}
+.blog-page-grids-bot1 ul{
+	padding:2em 0 3em;
+}
+.blog-page-grids-bot1 ul li{
+	display:inline-block;
+	margin-right: 2em;
+}
+.blog-page-grids-bot1 ul li a{
+	color: #999;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 1em;
+}
+.blog-page-grids-bot1 ul li a span{
+	right:1em;
+}
+.blog-page-grids-bot1 ul li a:hover{
+	color:#E57057;
+}
+
+
+/*-- //blog --*/
+
+@media (max-width:768px){
+
+  .blog-page-grids-bot {
+    float: none;
+    width: 100%;
+    margin: 0 0 2em;
+  }
+  .blog-page-grid h3 {
+    font-size:1.2em;
+  }
+  .blog-page-grid1 p {
+    margin: 0.5em 0 0;
+  }
+  .blog-page-grids {
+    margin-bottom: 2em;
+  }
+  .blog-page-grids-bot1 {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width:640px){
+
+  .blog-page-grids-bot1 ul {
+    padding: 1em 0 2em;
+  }
+  .blog-page-grid,.blog-page-grid1 {
+    float: none;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .blog-page-grid h3 {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  .blog-page-grids-bot1 h4 {
+    font-size: 1em;
+  }
+  .blog-page-grids-bot {
+    margin: 0 0 1em;
+  }
+  .blog-page-grids {
+    margin-bottom: 1em;
+  }
+  .blog-pag:nth-child(2) {
+    margin: 3em 0;
+  }
+
+}   
+
+
+@media (max-width:320px){
+
+  .blog-pag:nth-child(2) {
+    margin: 2em 0;
+  }
+  .blog-page-grids-bot1 ul li {
+    margin-right: 0.5em;
+  }
+  .blog-page-grids-bot1 h4 {
+    margin: 0 0 0.5em;
+  }
+
+}
