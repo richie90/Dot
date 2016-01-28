@@ -1,17 +1,19 @@
 #header-carousel .carousel-inner .item { 
   background-size: cover; 
   background-position: center; 
-  height: 900px;
-  margin-top: 40px;
+  height: 950px;
+  margin-top: 40px; 
   
-  
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
 }
-.background-image{
 
-}
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
@@ -20,7 +22,7 @@
   padding: 20px 40px;
   text-decoration: none;
   overflow : hidden;
-  
+  position: relative;
   
   max-width:500px;  
   cursor: pointer;
