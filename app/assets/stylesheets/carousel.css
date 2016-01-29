@@ -26,7 +26,8 @@
   padding: 20px 35px;
   text-decoration: none;
   overflow : hidden;
-  float: left;  
+  float: left;
+  margin-bottom: 400px;  
   position: relative;  
   max-width:500px;  
   cursor: pointer;
@@ -115,6 +116,7 @@ transform: translate3d(100%, 0, 0);
 @media (max-width:767px){ 
   .item img{
     min-height: 500px;
+
     
   }
 
@@ -122,6 +124,7 @@ transform: translate3d(100%, 0, 0);
     float: center;
     padding: 14px 20px;
     font-size: 10px;
+    margin-bottom: 0; 
   }
 
 
