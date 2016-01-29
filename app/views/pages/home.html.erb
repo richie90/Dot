@@ -11,58 +11,46 @@
 <body>
 
 <!-- Carousel --> 
+<link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
 <div id="header-carousel" class="carousel slide" data-ride="header-carousel-ride">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
-
-
-  <!-- Wrapper for slides -->
-  <div id="owl-demo" div class="carousel-inner">
-    <div class="item active"><img src="https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12593758_881621698603447_2867348409802506244_o.jpg" alt="The Last of us">
-      <div class="carousel-caption">
-       <h3>The First Braille Smartwatch</h3>
-       <p>With active braille technology</p>
-       <%= link_to "Pre-Order", product_path, class: "button" %>
-      </div>     
-    </div> 
-    
-
-    <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12604705_881621718603445_8032990919348975096_o.jpg" alt="The Last of us">
-      <div class="carousel-caption">
-       <h3>The First Braille Smartwatch</h3>
-       <p>With active braille technology</p>
-          <%= link_to "Pre-Order", product_path, class: "button" %>
-      </div>   
+  <div class="carousel-inner">
+    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12593758_881621698603447_2867348409802506244_o.jpg');">
+      <div class="title">The First Braille Smartwatch</div>
+      <div class="text">With active braille technology</div>
+      <div class="more">
+         <%= link_to "Pre-Order", product_path, class: "btn" %>
+      </div>
     </div>
-
-    <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xft1/t31.0-8/12657232_881621741936776_7998567145333538475_o.jpg" alt="The Last of us">
-      <div class="carousel-caption">
-       <h3>The First Braille Smartwatch</h3>
-       <p>With active braille technology</p> 
-          <%= link_to "Our Stroy", about_path, class: "button" %>
-      </div> 
-    </div>
-
-  <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xpl1/t31.0-8/11136142_881621758603441_2112279871167672975_o.jpg" alt="The Last of us">
-    <div class="carousel-caption">
-       <h3>The First Braille Smartwatch</h3>
-       <p>With active braille technology</p>    
-          <% if user_signed_in? %>
-            <%= link_to "Pre-Order", product_path, class: "button" %> 
-          <% else %>         
-            <%= link_to "Sign up", new_user_registration_path, class: "button" %>
-          <% end %> 
+    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12604705_881621718603445_8032990919348975096_o.jpg');">
+      <div class="title">The First Braille Smartwatch</div>
+      <div class="text">With active braille technology</div>
+      <div class="more">
+         <%= link_to "Pre-Order", product_path, class: "btn" %>
     </div>
   </div>
-  
-</div>
+    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xft1/t31.0-8/12657232_881621741936776_7998567145333538475_o.jpg');">
+      <div class="title">The First Braille Smartwatch</div>
+      <div class="text">With active braille technology</div>
+      <div class="more">
+        
+        <%= link_to "Our Stroy", about_path, class: "btn" %> 
+        
+      </div>
+    </div>
+    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xpl1/t31.0-8/11136142_881621758603441_2112279871167672975_o.jpg');">
+      <div class="title">The First Braille Smartwatch</div>
+      <div class="text">With active braille technology</div>
+      <div class="more">
+        <% if user_signed_in? %>
+          <%= link_to "Pre-Order", product_path, class: "btn" %> 
+        <% else %>         
+          <%= link_to "Sign up", new_user_registration_path, class: "btn" %>
+        <% end %> 
+      </div>
+    </div>
+  </div>
 </body>
-
   <!-- Controls -->
   <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
@@ -72,7 +60,11 @@
   </a>
 </div>
   <!-- End Controls -->
-<!-- End Carousel -->  
+<!-- End Carousel --> 
+
+
+
+
 
 <div id="banner_section_01">
   <div class="container">
@@ -101,4 +93,33 @@
 
 
 </html>
+
+
+<script>
+$(window).load(function(){
+  $('.title').css({ 'top': 90+'px', 'opacity': 1 });
+  $('.text').css({ 'opacity': 1 });
+  $('.more').css({ 'opacity': 1, 'bottom': 90+'px' });
+});
+$('#header-carousel').on('slid.bs.carousel', function () {
+  $('.title').css({ 'top': 90+'px', 'opacity': 1 });
+  $('.text').css({ 'opacity': 1 });
+  $('.more').css({ 'opacity': 1, 'bottom': 90+'px' });
+});
+$('#header-carousel').on('slide.bs.carousel', function () {
+  $('.title').css({ 'top': 0+'px', 'opacity': 0 });
+  $('.text').css({ 'opacity': 0 });
+  $('.more').css({ 'opacity': 0, 'bottom': 0+'px' });
+});
+function carouselFix() {
+  $(".carousel.slide").carousel("pause");
+  $('.carousel.slide .item').removeClass('active');
+  $('.carousel.slide').find('.item:first').addClass('active');
+}
+$(document).ready(function() {      
+  carouselFix();
+});
+
+
+</script>
 
