@@ -115,7 +115,13 @@ transform: translate3d(100%, 0, 0);
 @media (max-width:767px){ 
   .item img{
     min-height: 500px;
-    margin-top: 20px;
+    
+  }
+
+  .button {
+    float: center;
+    padding: 14px 20px;
+    font-size: 10px;
   }
 
 
