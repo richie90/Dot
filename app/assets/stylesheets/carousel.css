@@ -1,14 +1,17 @@
 #header-carousel .carousel-inner .item { 
   background-size: cover; 
-  background-position: center; 
-  height: 950px;
+  background-position: center;  
   margin-top: 40px; 
+
   
 }
 #owl-demo .item img{
     display: block;
     width: 100%;
-    height: auto;
+    /*height:800px;
+    max-height: 900px; 모든 이미지 높이를 맞추면 가능
+*/
+    
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
@@ -16,14 +19,15 @@
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+    position:relative;
 }
 .button {
   border: 3px solid black;
-  padding: 20px 40px;
+  padding: 20px 35px;
   text-decoration: none;
   overflow : hidden;
-  position: relative;
-  
+  float: left;  
+  position: relative;  
   max-width:500px;  
   cursor: pointer;
   color: black;
@@ -43,7 +47,6 @@
   color:black;
   background-color: white;
   text-decoration: none;
-  background-position: -100% 100%;
 }
 
 

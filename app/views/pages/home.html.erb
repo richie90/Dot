@@ -23,39 +23,46 @@
 
   <!-- Wrapper for slides -->
   <div id="owl-demo" div class="carousel-inner">
-    <div class="item active"><img src="assets/slide1.jpg" alt="The Last of us">
-      
-          <%= link_to "Pre-Order", product_path, class: "button" %>
+    <div class="item active"><img src="https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12593758_881621698603447_2867348409802506244_o.jpg" alt="The Last of us">
+      <div class="carousel-caption">
+       <h3>The First Braille Smartwatch</h3>
+       <p>With active braille technology</p>
+       <%= link_to "Pre-Order", product_path, class: "button" %>
+      </div>     
     </div> 
     
 
-    <div class="item"><img src="assets/slide2.jpg" alt="The Last of us">
+    <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12604705_881621718603445_8032990919348975096_o.jpg" alt="The Last of us">
+      <div class="carousel-caption">
+       <h3>The First Braille Smartwatch</h3>
+       <p>With active braille technology</p>
           <%= link_to "Pre-Order", product_path, class: "button" %>
-
-     
+      </div>   
     </div>
 
-    <div class="item"><img src="assets/slide5.jpg" alt="The Last of us">
-        
-     
-          <%= link_to "Our Stroy", about_path, class: "button" %> 
-        
+    <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xft1/t31.0-8/12657232_881621741936776_7998567145333538475_o.jpg" alt="The Last of us">
+      <div class="carousel-caption">
+       <h3>The First Braille Smartwatch</h3>
+       <p>With active braille technology</p> 
+          <%= link_to "Our Stroy", about_path, class: "button" %>
+      </div> 
     </div>
 
-  <div class="item"><img src="assets/slide2.jpg" alt="The Last of us">
-        
-        
+  <div class="item"><img src="https://scontent.xx.fbcdn.net/hphotos-xpl1/t31.0-8/11136142_881621758603441_2112279871167672975_o.jpg" alt="The Last of us">
+    <div class="carousel-caption">
+       <h3>The First Braille Smartwatch</h3>
+       <p>With active braille technology</p>    
           <% if user_signed_in? %>
             <%= link_to "Pre-Order", product_path, class: "button" %> 
           <% else %>         
             <%= link_to "Sign up", new_user_registration_path, class: "button" %>
           <% end %> 
-       
-      </div>
-
-
+    </div>
   </div>
+  
+</div>
 </body>
+
   <!-- Controls -->
   <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
@@ -71,7 +78,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4"><div class="left_watch"><a href="/product">
-      <img src="/assets/watch1.png" alt=""></a></div></div>
+      <img src="https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12631420_881610605271223_563003460790229426_n.jpg?oh=6c3a0e88eb1e8e37c1a0ce6ebf8018dc&oe=573C3E71" alt=""></a></div></div>
 
       <div class="col-md-4"><div class="middle_text">
       <p class="top">DOT SMART WATCH</p>
@@ -80,7 +87,7 @@
       </div>
 
       <div class="col-md-4"><div class="right_watch"><a href="/product">
-      <img src="/assets/watch1.png"></a></div></div>
+      <img src="https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12631420_881610605271223_563003460790229426_n.jpg?oh=6c3a0e88eb1e8e37c1a0ce6ebf8018dc&oe=573C3E71"></a></div></div>
  
     </div>
   </div>
@@ -94,3 +101,4 @@
 
 
 </html>
+
