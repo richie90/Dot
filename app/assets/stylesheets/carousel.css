@@ -2,7 +2,7 @@
   background-size: cover; 
   background-position: center; 
   width: 100%; 
-  height: 950px;
+  height: 800px;
   margin-top: 40px;
 
 }
@@ -28,21 +28,18 @@
 
   .title { 
   font-size: 34px;
-  float:left;
   font-weight: bold;
-  padding-top:130px;
-  padding-left:220px; 
-  opacity: 0;  
-  margin-top: 150px;
+  padding-top:200px;
+  padding-left:220px;
   width: 100%;
   color: black;  
 }
 .text { 
   font-size: 22px;
   color:#e1542c;
-  padding-top: 290px; 
+  padding-top: 20px; 
   padding-left: 220px;
-  opacity: 0; 
+
 }
 
 .button {
@@ -116,21 +113,21 @@ transform: translate3d(100%, 0, 0);
 @media only screen and (min-width : 1824px) {
   .title { 
   font-size: 40px;
-  float:left;
+  margin-top: 50px;
   font-weight: bold;
-  padding-top:130px;
+  padding-top:200px;
   padding-left:220px; 
-  opacity: 0;  
-  margin-top: 150px;
+
+
   width: 100%;
   color: black;  
 }
 .text { 
   font-size: 28px;
   color:#e1542c;
-  padding-top: 290px; 
+  padding-top: 20px; 
   padding-left: 220px;
-  opacity: 0; 
+
 }
 
 
@@ -151,23 +148,32 @@ transform: translate3d(100%, 0, 0);
 
 
 @media only screen and (min-width : 1224px) {
+#header-carousel .carousel-inner .item { 
+  background-size: cover; 
+  background-position: center; 
+  height: 950px;
+
+
+  
+}
+
   .title { 
   font-size: 40px;
-  float:left;
+  margin-top: 50px;
   font-weight: bold;
-  padding-top:130px;
+  padding-top:200px;
   padding-left:220px; 
-  opacity: 0;  
-  margin-top: 150px;
+
+
   width: 100%;
   color: black;  
 }
 .text { 
   font-size: 28px;
   color:#e1542c;
-  padding-top: 290px; 
+  padding-top: 20px; 
   padding-left: 220px;
-  opacity: 0; 
+
 }
 
 
@@ -194,7 +200,7 @@ transform: translate3d(100%, 0, 0);
   background-position: center; 
   height: 500px;
   max-width: 1024px;
-  margin-top: 70px;  
+
   
 }
 .item img{
@@ -205,21 +211,21 @@ transform: translate3d(100%, 0, 0);
 
   .title { 
   font-size: 30px;
-  float:left;
+  margin-top: 50px;
   font-weight: bold;
-  padding-top:130px;
+  padding-top:200px;
   padding-left:220px; 
-  opacity: 0;  
-  margin-top: 150px;
+
+
   width: 100%;
   color: black;  
 }
 .text { 
   font-size: 20px;
   color:#e1542c;
-  padding-top: 290px; 
+  padding-top: 20px; 
   padding-left: 220px;
-  opacity: 0; 
+
 }
 
 
@@ -240,13 +246,17 @@ transform: translate3d(100%, 0, 0);
 
 }
 
+@media only screen and (max-device-width : 768px){
+
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 480px) {
 #header-carousel .carousel-inner .item { 
   background-size: cover; 
   background-position: center; 
   height: 500px;
-  margin-top: 40px;
+
   
   
 }
@@ -256,22 +266,21 @@ transform: translate3d(100%, 0, 0);
   }
 
   .title { 
-  font-size: 30px;
-  float:left;
+  font-size: 20px;
+
   font-weight: bold;
   padding-top:130px;
   padding-left:220px; 
-  opacity: 0;  
-  margin-top: 150px;
+
   width: 100%;
   color: black;  
 }
 .text { 
-  font-size: 20px;
+  font-size: 13px;
   color:#e1542c;
-  padding-top: 290px; 
+  padding-top: 20px; 
   padding-left: 220px;
-  opacity: 0; 
+
 }
 
 
