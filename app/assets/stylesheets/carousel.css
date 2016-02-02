@@ -8,6 +8,7 @@
     -ms-background-size: cover;
     min-height: 950px;
 }
+
 /*--header--*/
 .rslides_tabs li:first-child {
   margin-left: 0;
@@ -141,19 +142,17 @@ a.con:hover{
 }
 
 /*--services--*/
-h3.tittle {
-  color:#2a292b;
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align:center;
-}
 div#service {
     padding: 5em 0;
 }
+ h3.tittle {
+    font-size: 3em;
+    text-align: center;
+  }
 .service-bottom{
   margin-top:4%;
 }
-.ab-left span {
+.about-left span {
     font-size: 2.2em;
     margin-top: 15%;
     color: #2A292B;
@@ -165,7 +164,7 @@ div#service {
     -o-border-radius: 40px;
     -ms-border-radius: 40px;
 }
-.ab-left span:hover {
+.about-left span:hover {
      color:#e1542c;
      border: 2px solid #e1542c;
      transition: 0.5s all;
@@ -174,12 +173,12 @@ div#service {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.ab-right h4{
-  font-color:#e1542c;
+.about-left h4{
+  color:#e1542c;
   font-size:1.7em;
   margin:0;
 }
-.ab-right p{
+.about-left p{
   font-size:1em;
   line-height:1.9em;
   margin-top:12px;
@@ -196,8 +195,6 @@ div#service {
 .srv-two{
   margin-top:4%;
 }
-
-
 /*--demo--*/
 
 #demo {
@@ -344,12 +341,9 @@ p.one{
     margin-top: 0.8em;
   }
 
-  .ab-left h4 {
-    font-size: 1.6em;
-    margin: 0;
-  }
   h3.tittle {
     font-size: 2.5em;
+    text-align: center;
   }
 
    .ab-text h2 {
@@ -393,6 +387,7 @@ p.one{
  
   h3.tittle {
     font-size: 2.4em;
+    text-align: center;
   }
  
   .banner-info {
@@ -437,6 +432,7 @@ p.one{
  
   h3.tittle {
     font-size: 2.4em;
+    text-align: center;
   }
  
   .banner-info {
@@ -594,6 +590,7 @@ p.one{
   }
   h3.tittle {
     font-size: 2.2em;
+    text-align: center;
   }
 }
 @media (max-width:375px){
@@ -672,6 +669,7 @@ p.one{
   }
   h3.tittle {
     font-size: 2.2em;
+    text-align: center;
   }
   
 
@@ -689,6 +687,7 @@ p.one{
   }
   h3.tittle {
     font-size: 2em;
+    text-align: center;
   }
  
 }

@@ -47,3 +47,67 @@ font-weight: bold;
   text-align: center;
   padding-top: 80px;
 }
+
+/*--Starts-Responsive--*/
+
+
+@media (max-width:1024px){
+ .keep{
+max-width:1024px;
+ }
+ 
+}
+@media (max-width:991px){
+ .keep{
+max-width:991px;
+ }
+}
+@media (max-width:800px){
+ .keep{
+max-width:800px;
+ }
+  
+}
+@media (max-width:768px){
+ .keep{
+max-width:768px;
+ }
+  
+}
+@media (max-width:736px){
+ .keep{
+max-width:736px;
+ }  
+}
+@media (max-width:640px){
+ .keep{
+max-width:640px;
+ }
+
+}
+@media (max-width:480px){
+ .keep{
+max-width:480px;
+ }
+
+}
+@media (max-width:384px){
+ .keep{
+max-width:384px;
+ }
+
+}
+@media (max-width:375px){
+ .keep{
+max-width:375px;
+ }
+  
+
+  
+}
+@media (max-width:320px){
+ .keep{
+max-width:320px;
+ }
+ 
+}
