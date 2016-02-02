@@ -153,7 +153,7 @@ div#service {
 .service-bottom{
   margin-top:4%;
 }
-.about-left span {
+.ab-left span {
     font-size: 2.2em;
     margin-top: 15%;
     color: #2A292B;
@@ -165,7 +165,7 @@ div#service {
     -o-border-radius: 40px;
     -ms-border-radius: 40px;
 }
-.about-left span:hover {
+.ab-left span:hover {
      color:#e1542c;
      border: 2px solid #e1542c;
      transition: 0.5s all;
@@ -174,12 +174,12 @@ div#service {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.about-left h4{
-  color:#e1542c;
+.ab-right h4{
+  font-color:#e1542c;
   font-size:1.7em;
   margin:0;
 }
-.about-left p{
+.ab-right p{
   font-size:1em;
   line-height:1.9em;
   margin-top:12px;
@@ -344,7 +344,7 @@ p.one{
     margin-top: 0.8em;
   }
 
-  .about-left h4 {
+  .ab-left h4 {
     font-size: 1.6em;
     margin: 0;
   }
@@ -352,7 +352,7 @@ p.one{
     font-size: 2.5em;
   }
 
-   .about-text h2 {
+   .ab-text h2 {
     font-size: 2em;
   }
 
@@ -382,27 +382,14 @@ p.one{
   .banner {
     min-height: 580px;
   }
-  .about-top {
-      margin-top: 3em;
-      padding: 2em;
-  }
-  .about-text {
-    padding-left: 0;
-    margin-top: 1em;
-  }
-  .about-pic img {
-    width: 53%;
-  }
 
-  .about-left {
+  .ab-left {
     padding: 0;
   }
   div#service {
     padding: 4em 0;
   }
-  #about {
-    padding: 4em 0;
-  }
+
  
   h3.tittle {
     font-size: 2.4em;
@@ -435,22 +422,16 @@ p.one{
   .banner {
     min-height: 580px;
   }
-  .about-top {
-      margin-top: 3em;
-      padding: 2em;
-  }
-  .about-text {
+
+  .ab-text {
     padding-left: 0;
     margin-top: 1em;
   }
    
-  .about-left {
+  .ab-left {
     padding: 0;
   }
   div#service {
-    padding: 4em 0;
-  }
-  #about {
     padding: 4em 0;
   }
  
@@ -527,9 +508,6 @@ p.one{
     margin-top: 11em;
     text-align: center;
   }
-  .about-text h2 {
-    font-size: 1.8em;
-  }
   a.con.two {
     margin-top: 0.8em;
   }
@@ -584,30 +562,21 @@ p.one{
     margin-top: 0.5em;
   }
  
-  #about {
-    padding: 2.5em 0;
-  }
-  .about-top {
-    margin-top: 1em;
-    padding: 1em;
-  }
-  .about-text h2 {
-    font-size: 1.4em;
-  }
-  .
-  .about-left span {
+ 
+
+  .ab-left span {
       font-size: 2.2em;
       margin-top: 5%;
   }
-  .about-left p {
+  .ab-left p {
       font-size: 0.9em;
   }
-  .about-text p {
+  .ab-text p {
     margin: 0.5em 0;
     font-size: 0.9em;
   }
   
-  .work,.news {
+  .news {
     padding: 2.5em 0;
   }
   .news-right {
@@ -626,13 +595,6 @@ p.one{
   h3.tittle {
     font-size: 2.2em;
   }
-  .testi-text p {
-    font-size: 0.9em;
-  }
-  #test {
-    padding: 3em 0;
-  }
- 
 }
 @media (max-width:375px){
   .ab-right {
@@ -676,25 +638,17 @@ p.one{
     margin-top: 0.5em;
   }
 
-  #about {
-    padding: 2.5em 0;
-  }
-  .about-top {
-    margin-top: 1em;
-    padding: 1em;
-  }
-  .about-text h2 {
-    font-size: 1.4em;
-  }
- 
-  .about-left span {
+
+
+
+  .ab-left span {
       font-size: 2.2em;
       margin-top: 5%;
   }
-  .about-left p {
+  .ab-left p {
       font-size: 0.9em;
   }
-  .about-text p {
+  .ab-text p {
     margin: 0.5em 0;
     font-size: 0.9em;
   }
