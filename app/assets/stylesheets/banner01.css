@@ -1,48 +1,51 @@
-.left_watch{
-  margin:0 0 150px 0; 
-  float:left;
-  text-align:left; 
-  position: static;
+/*-- keep --*/
+.keep{
+  background: url(https://scontent.xx.fbcdn.net/hphotos-xlp1/t31.0-8/12493525_877999838965633_640099131560879650_o.jpg) fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  min-height: 760px;
+  padding-top:80px;
 }
-
-.right_watch{
-  margin:0 0 150px 0; 
-  float:right;
-  text-align:right;
-  position: static;
-
+.contents{
+  float: right;
 }
-
-.top{  
-  text-align:center;
+.keep h3{
   color: #e1542c;
-  font-size: 26px;
-  font-weight: bold;
-  margin-top:100px;
-  position: static;
-
-    
-}
-.top2{
-  text-align:center;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top:40px;
-  position: static;
-  
-  
-}
-
-.top3 {  
-  text-align:center;
-  color: silver;
   font-size: 40px;
   font-weight: bold;
-  margin-top:80px;
-  position: static;
 
-    
+}
+.keep p{
+
+font-size:18px;
+color:black;
+font-weight: bold;
+}
+.keep ul{  
+  font-size: 18px;
+  font-weight: bold;
+}
+/*-- //keep --*/
+
+
+.keep2{
+  background: url(http://cdn.psfk.com/wp-content/uploads/2015/08/dot-braille-smartwatch-968x644.jpg) fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  min-height: 700px;
+  padding-top:80px;
 }
 
 
+.keep2 h3{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+}

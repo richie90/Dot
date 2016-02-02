@@ -6,122 +6,207 @@
     <link rel="stylesheet" href="carousel.css" media="all" type="text/css">
     <link rel="stylesheet" href="banner01.css" media="all" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-    <script src="assets/carousel.js"></script>
     <meta name="viewport" content="width=device-width, initial-sacal=1.0" />
 
 </head>
 <body>
-
-<!-- Carousel --> 
-<link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-
-<div id="header-carousel" class="carousel slide" data-ride="header-carousel-ride">
-  <div class="carousel-inner">
-    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12593758_881621698603447_2867348409802506244_o.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-         <%= link_to "Pre-Order", product_path, class: "button" %>
-      </div>
-    </div>
-    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xta1/t31.0-8/12604705_881621718603445_8032990919348975096_o.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-         <%= link_to "Pre-Order", product_path, class: "button" %>
-    </div>
-  </div>
-    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xft1/t31.0-8/12657232_881621741936776_7998567145333538475_o.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-        
-        <%= link_to "Our Stroy", about_path, class: "button" %> 
-        
-      </div>
-    </div>
-    <div class="item" style="background-image: url('https://scontent.xx.fbcdn.net/hphotos-xpl1/t31.0-8/11136142_881621758603441_2112279871167672975_o.jpg');">
-      <div class="title">The First Braille Smartwatch</div>
-      <div class="text">With active braille technology</div>
-      <div class="more">
-        <% if user_signed_in? %>
-          <%= link_to "Pre-Order", product_path, class: "buttnon" %> 
-        <% else %>         
-          <%= link_to "Sign up", new_user_registration_path, class: "button" %>
-        <% end %> 
-      </div>
-    </div>
-  </div>
-</body>
-  <!-- Controls -->
-  <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#header-carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-  <!-- End Controls -->
-<!-- End Carousel --> 
-
-
-
-
-
-<div id="banner_section_01">
+<div class="banner" id="house">
   <div class="container">
-    <div class="row">
-      <div class="col-md-4"><div class="left_watch"><a href="/product">
-      <img src="https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12631420_881610605271223_563003460790229426_n.jpg?oh=6c3a0e88eb1e8e37c1a0ce6ebf8018dc&oe=573C3E71" alt=""></a></div></div>
+    <div class="callbacks_container">
+      <ul class="rslides callbacks callbacks1" id="slider4">
+          <div class="banner-info">
+            <h3>The first braille smartwatch</h3>
+            <a href="/product" class="con">Pre-Order</a>
+          </div>
+      </ul>    
+    </div>
+  </div>
+</div>    
+            <!--banner-Slider-->
+<!--start-services-->
+<div class="service-section" id="service">
+  <div class="container">
+    <h3 class="tittle">Function</h3>
+      <div class="service-bottom">
 
-      <div class="col-md-4"><div class="middle_text">
-      <p class="top">DOT SMART WATCH</p>
-      <p class="top2">Amazing Experience with Your Fingertips</p></div>
-      <p class="top3">RELEASE IN 2016</p>
+        <div class="col-md-6 about-left">
+          <div class="srv-one">
+            <div class="ab-left">
+              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+            </div>
+            <div class="ab-right">
+              <h4>Time</h4>
+              <p>Nulla et finibus libero. Suspendisse vitae ex facilisis, ultricies est sed, porta ante. Vivamus tristique luctus lorem, eget dignissim lacus sodales tristique.</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="srv-two">
+            <div class="ab-left">
+              <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>
+            </div>
+            <div class="ab-right">
+              <h4>Braille Leaning</h4>
+              <p>Nulla et finibus libero. Suspendisse vitae ex facilisis, ultricies est sed, porta ante. Vivamus tristique luctus lorem, eget dignissim lacus sodales tristique.</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+
+        <div class="col-md-6 about-left">
+          <div class="srv-one">
+            <div class="ab-left">
+              <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+            </div>
+            <div class="ab-right">
+              <h4>Smart Watch</h4>
+              <p>Nulla et finibus libero. Suspendisse vitae ex facilisis, ultricies est sed, porta ante. Vivamus tristique luctus lorem, eget dignissim lacus sodales tristique.</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="srv-two">
+            <div class="ab-left">
+              <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+            </div>
+            <div class="ab-right">
+              <h4>Text Reading</h4>
+              <p>Nulla et finibus libero. Suspendisse vitae ex facilisis, ultricies est sed, porta ante. Vivamus tristique luctus lorem, eget dignissim lacus sodales tristique.</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
       </div>
 
-      <div class="col-md-4"><div class="right_watch"><a href="/product">
-      <img src="https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12631420_881610605271223_563003460790229426_n.jpg?oh=6c3a0e88eb1e8e37c1a0ce6ebf8018dc&oe=573C3E71"></a></div></div>
- 
     </div>
+   </div>
+
+
+
+
+
+<div class="keep">
+  <div class="container">
+    <div class="contents">
+    <h3 class="tittle-one">Specification</h3>
+    <p>There are 285 million visually<br> impaired people around the globe.</p>
+    <br><br>
+    <ul class="spec" id="explain">
+      <li>Type : Circle</li>
+      <li>Size : 42mm case</li>
+      <li>Depth : 12mm</li><br>
+
+      <li>Braille cell</li>
+      <li>: 4 active dynamic braille cells</li><br>
+
+      <li>Material</li>
+      <li>: 7000 series aluminum</li><br>
+
+      <li>Battery</li>
+      <li>: Li-polymer 400mAh</li><br>
+
+      <li>Band</li>
+      <li>: 22mm sport band,</li>
+      <li>22mm leather band</li><br>
+
+
+
+    </ul>  
+  </div>
   </div>
 </div>
 
 
+<!--test-demo-->
+<div class="test-demo" id="demo"> 
+  <div class="container">
+    <h3 class="tittle">Test Demo</h3>
+      <div class="demo-top">
+        <div class="col-md-4 demo-text">
+          <h4> DOT WATCH</h4>
+          <div class="pre-top">
+            <div class="item-text">
+              <span class="item_price">Finance Free</span>
+              <h6>$129</h6>
+              <div class="clearfix"> </div>
+            </div>
+     
+            <div class="item-text">
+              <span class="item_price">Option to Purchase Free</span>
+              <h6>$249</h6>
+              <div class="clearfix"> </div>
+            </div>
+    
+            <div class="item-text">
+              <span class="item_price">Total Amount Payable</span>
+              <h6> $9,879</h6>
+              <div class="clearfix"> </div>
+            </div>
+   
+            <div class="item-text">
+              <span class="item_price">Duration</span>
+              <h6>48 months</h6>
+              <div class="clearfix"> </div>
+            </div>
+   
+            <div class="item-text">
+              <span class="item_price">Duration</span>
+              <h6>48 months</h6>
+              <div class="clearfix"> </div>
+            </div>   
+          </div>
+            <a href="/product" class="con">Pre-Order</a>
+        </div>
+          <div class="col-md-8 demo-img">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12631420_881610605271223_563003460790229426_n.jpg?oh=6c3a0e88eb1e8e37c1a0ce6ebf8018dc&oe=573C3E71" alt="Picture of Dot Watch"/>
+          </div>
+          <div class="clearfix"> </div>
+      </div>
+  </div>
+</div>
+<!--//test-demo-->
+
+<div class="keep2">
+    <h3 class="tittle-two">Affordable E-Braille reader<br>
+for visually impaired people around the globe<br><br>With Active Braille Technology</h3>
+</div>
+
+<!--news-starts-->
+  <div class="news" id="news">
+    <div class="container">
+      <h3 class="tittle">Our News</h3>
+      <div class="news-bottom">
+        <div class="news-one">
+          <div class="col-md-6 news-left">
+            <a href="/news"><img src="https://scontent.xx.fbcdn.net/hphotos-xfa1/t31.0-8/12633484_961735190572962_8925394356373729504_o.jpg" alt="" /></a>
+          </div>  
+          <div class="col-md-6 news-right"> 
+          <a href="/news"><h4>Low-Priced Dot's Braille Modules</h4></a>
+            <h5>30.08.2015</h5>
+            <p class="one">Development of low-priced Dot's Braille modules and contents for the visually impaired living in current 3Rd world areas with KOICA Kenya office. The goal of this project is to help the low-income poverty class in Africa in adapting and participating socially. Alongside with this goal, we are also trying to finish developing the low-priced module and to complete the innovative contents which may be linked with the modules.</p>  
+          </div>  
+          <div class="clearfix"> </div> 
+        </div>
+        <div class="news-one">
+          <div class="col-md-6 news-right"> 
+            <a href="/news"><h4>2015 Herald Design Forum</h4></a>
+            <h5>12.09.2015</h5>
+            <p class="one">Our CEO Eric Kim has been invited to the 2015 Herald Design Forum as a speaker of the Design and Business area along with Randi Zuckerberg (Facebook Marketing) and Janne Kyttanen (3D printing author from Finland). DOT will do the best to become the bridge device of disability aids and smart devices using "Revolutionary technology" and "Emotional Design".</p>  
+          </div>  
+          <div class="col-md-6 news-left">
+            <a href="/news"><img src="https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12227601_844968698952180_8352757487313629420_n.jpg?oh=474a8eca1bb120edfbed77a6d3509d10&oe=573A5B52" alt="" /></a>
+          </div>            
+          <div class="clearfix"> </div> 
+        </div>    
+      </div>      
+    </div>  
+  </div>  
+  <!--news-end-->
 
 
-
-
-
-
+</body>
 </html>
 
-
-<script>
-$(window).load(function(){
-  $('.title').css({ 'top': 90+'px', 'opacity': 1 });
-  $('.text').css({ 'opacity': 1 });
-  $('.more').css({ 'opacity': 1, 'bottom': 90+'px' });
-});
-$('#header-carousel').on('slid.bs.carousel', function () {
-  $('.title').css({ 'top': 90+'px', 'opacity': 1 });
-  $('.text').css({ 'opacity': 1 });
-  $('.more').css({ 'opacity': 1, 'bottom': 90+'px' });
-});
-$('#header-carousel').on('slide.bs.carousel', function () {
-  $('.title').css({ 'top': 0+'px', 'opacity': 0 });
-  $('.text').css({ 'opacity': 0 });
-  $('.more').css({ 'opacity': 0, 'bottom': 0+'px' });
-});
-function carouselFix() {
-  $(".carousel.slide").carousel("pause");
-  $('.carousel.slide .item').removeClass('active');
-  $('.carousel.slide').find('.item:first').addClass('active');
-}
-$(document).ready(function() {      
-  carouselFix();
-});
-
-
-</script>
 
