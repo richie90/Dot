@@ -116,9 +116,7 @@ transform: translate3d(100%, 0, 0);
   margin-top: 50px;
   font-weight: bold;
   padding-top:200px;
-  padding-left:220px; 
-
-
+  padding-left:220px;
   width: 100%;
   color: black;  
 }
@@ -132,7 +130,7 @@ transform: translate3d(100%, 0, 0);
 
 
 .button {
-  border: 3px solid black;
+
   padding: 15px 21px;
   margin-top: 100px;
   margin-left: 215px;
@@ -182,8 +180,13 @@ transform: translate3d(100%, 0, 0);
 
 
   .button {
-    padding:15px 18px;
-    font-size: 15px;
+  padding: 15px 21px;
+  margin-top: 100px;
+  margin-left: 215px;
+  text-decoration: none;
+  float:left;
+  width:200px;
+  font-size: 15px;
 
 
  }

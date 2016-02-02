@@ -69,16 +69,16 @@
   margin-left: 35px;
 }
 .icons {
-    margin-top: 35px;
+    margin-top: 20px;
     margin-right: 60px;
-    font-size: 27px; 
+    font-size: 23px; 
     text-align: center;
 
    
 }
 .icons ul li{
   display:inline-block;
-  margin:0 2px;
+  margin:0;
 
 }
 
@@ -111,3 +111,21 @@ body,
     width:100%;
     bottom:0;
 }
+
+/* computer (portrait and landscape) ----------- */
+@media only screen and (min-width : 1224px) {
+.icons {
+    margin-top: 35px;
+    margin-right: 60px;
+    font-size: 27px; 
+    text-align: center;
+
+   
+}
+.icons ul li{
+  display:inline-block;
+  margin:0 2px;
+
+}
+}
+
