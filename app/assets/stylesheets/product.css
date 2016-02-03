@@ -1,5 +1,5 @@
-.thumb-image {
-  position: relative;
+.pro-watch {
+ float: left;
 }
 
 
@@ -63,8 +63,7 @@ input[type=number] {
 }
 
 .product-line-price {
-    font-size: 23px;
-    margin-right: 12px;   
+    font-size: 23px;    
     float: right;
          
 
@@ -87,7 +86,7 @@ input[type=number] {
     margin-left: 15px;
     display: inline-block;
     font-size: 0.9em;
-    padding: 0 190px;
+    padding: 0 195px;
     color: white;
     background-color: #D3D3D3;
     border: 2px solid #D3D3D3;
@@ -150,6 +149,8 @@ input[type=number] {
 }
 
 @media (max-width:991px){
+
+
   .btn_form a {
     padding: 0 150px ;
   }
@@ -159,6 +160,7 @@ input[type=number] {
 
 }
 @media (max-width:800px){
+
   .btn_form a {
     padding: 0 100px ;
   }
@@ -171,6 +173,7 @@ input[type=number] {
 
 }
 @media (max-width:768px){
+
   .btn_form a {
     padding: 0 50px ;
   }
@@ -187,6 +190,8 @@ input[type=number] {
 
 
 @media (max-width:480px){
+
+
   .btn_form a {
     padding: 0 20px ;
   }
@@ -199,6 +204,7 @@ input[type=number] {
 
 }
 @media (max-width:320px){
+
   .btn_form a {
     padding: 0 ;
   }
