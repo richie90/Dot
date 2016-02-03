@@ -3,6 +3,11 @@ p {
     margin-top: 20px;
     padding: 0 50px 0 0px;
 }
+.product-info h5{
+  font-size: 18px;
+  color: #696969;
+line-height:170%;
+}
 .simpleCart_shelfItem{
   margin-top: -18px;
 }
@@ -140,12 +145,18 @@ input[type=number] {
 }
 
 @media (max-width:991px){
+  .btn_form a {
+    padding: 0 150px ;
+  }
   .welcome-right {
     min-height: 463px;
   }
 
 }
 @media (max-width:800px){
+  .btn_form a {
+    padding: 0 100px ;
+  }
   .welcome-left {
     padding: 2em 2em 2em 2em;
   }
@@ -155,7 +166,9 @@ input[type=number] {
 
 }
 @media (max-width:768px){
-
+  .btn_form a {
+    padding: 0 50px ;
+  }
   .welcome-left {
     float: none;
     width: 100%;
@@ -169,6 +182,9 @@ input[type=number] {
 
 
 @media (max-width:480px){
+  .btn_form a {
+    padding: 0 20px ;
+  }
   .welcome-left h3, .about-left h3 {
     font-size: 2em;
   }
@@ -178,6 +194,10 @@ input[type=number] {
 
 }
 @media (max-width:320px){
+  .btn_form a {
+    padding: 0 ;
+  }
+
   .welcome-left {
     padding: 1em;
   }
