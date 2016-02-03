@@ -5,16 +5,15 @@ p {
 }
 
 .product-title{
-  font-size: 30px;
-  font-weight: bold;
-  color: #e1542c;
+  font-size: 25px;
+  color: #696969;
 }
 
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
   content: '$';
 }
 .single{
-    margin-top:130px;
+    margin-top:100px;
 }
 .product{
     margin-top:25px;
@@ -25,13 +24,14 @@ p {
 }
 .qty{
   float: left;
-  color:#e1542c;
+  color:#A9A9A9;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .product-quantity {  
- padding-top: 24px;
- margin-right: 76px;
- text-align: right;
+
+float: left;
 
   }
 input[type=number] {
@@ -41,33 +41,41 @@ input[type=number] {
 }
 
 
+.total{
+  font-size: 25px;
+  color: #696969;
+  float: left;
+}
+
+.product-line-price {
+    font-size: 23px;
+       
+    float: right;
+         
+
+  }
+
 .product-price{
-    color: #000;
-    font-size: 25px;
-    font-weight: 600;
+
+    color: #696969;
+    font-size: 25px;    
     margin: 20px 0 5px;
     display:block;
 }
 
-
-.product-line-price {
-    font-size: 23px;
-    padding-top: 52px;        
-    float: left;
-    text-align: left;     
-
-  }
-
+.jumbotron{
+  width: 1100px;
+}
 .btn_form a {
-    float: right;
-    margin:50px 75px;
+    float: left;
     outline: none;
+    margin-left: 15px;
     display: inline-block;
     font-size: 0.9em;
-    padding: 0.5em 1em;
-    border: 2px solid #e1542c;
-    background: #e1542c;
-    color: #fff;
+    padding: 0 190px;
+    color: white;
+    background-color: #D3D3D3;
+    border: 2px solid #D3D3D3;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -75,14 +83,23 @@ input[type=number] {
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     margin-bottom: 1em;
+    
 }
 .btn_form a:hover {
     background: transparent;
-    border-color: #5D4B33;
-    color:#5D4B33;
     text-decoration: none;
+    background-color: #e1542c;
+    border: 2px solid #e1542c;
+    color:white;
 }
 
+.item-title h3{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
 
-
+.tab-pane p {
+  text-align: justify;
+}
 
