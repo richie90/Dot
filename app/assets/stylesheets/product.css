@@ -16,6 +16,7 @@ p {
 }
 .single{
     margin-top:100px;
+
 }
 .product{
     margin-top:25px;
@@ -101,6 +102,11 @@ input[type=number] {
   font-weight: bold;
 }
 
-.product-info {
+.info-title{
   font-size: 18px;
+  text-align: center;
+}
+
+.info-section{
+  background-color: white;
 }
