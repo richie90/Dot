@@ -138,3 +138,62 @@ input[type=number] {
     background-size: cover;
     min-height: 700px;
 }
+
+@media (max-width:991px){
+  .welcome-right {
+    min-height: 463px;
+  }
+
+}
+@media (max-width:800px){
+  .welcome-left {
+    padding: 2em 2em 2em 2em;
+  }
+  .welcome-left h4 {
+    font-size: 1.3em;
+  }
+
+}
+@media (max-width:768px){
+
+  .welcome-left {
+    float: none;
+    width: 100%;
+  }
+  .welcome-right {
+    width: 100%;
+    float: none;
+  }
+
+}
+
+
+@media (max-width:480px){
+  .welcome-left h3, .about-left h3 {
+    font-size: 2em;
+  }
+  .welcome-left h4, .about-left h4 {
+    font-size: 1.3em;
+  }
+
+}
+@media (max-width:320px){
+  .welcome-left {
+    padding: 1em;
+  }
+  .welcome-left h3, .about-left h3 {
+    font-size: 1.5em;
+  }
+  .welcome-left h4, .about-left h4 {
+    font-size: 1em;
+  }
+  .welcome-left p, .about-left p {
+    font-size: .8em;
+    line-height: 1.7em;
+  }
+  .welcome-right {
+    min-height: 160px;
+  }
+
+
+}
