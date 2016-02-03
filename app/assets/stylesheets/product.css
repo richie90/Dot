@@ -1,3 +1,8 @@
+.thumb-image {
+  position: relative;
+}
+
+
 p {
     font-size: 20px;
     margin-top: 20px;
@@ -59,7 +64,7 @@ input[type=number] {
 
 .product-line-price {
     font-size: 23px;
-       
+    margin-right: 12px;   
     float: right;
          
 
@@ -120,7 +125,7 @@ input[type=number] {
 
 
 .welcome-left{
-    float: left;
+    float: right;
     width: 50%;
     padding: 100px 0 3em 0;
 }
@@ -130,7 +135,6 @@ input[type=number] {
     margin: 0;
     font-size: 30px;
 }
-
 .welcome-left p,.about-left p{
   color: #B0B0B0;
     font-size: 15px;
@@ -139,8 +143,7 @@ input[type=number] {
 }
 
 .welcome-right {
-    width: 50%;
-    float: left;
+    width: 100%; 
     background: url(https://scontent.xx.fbcdn.net/hphotos-xpt1/t31.0-8/12622444_877999828965634_4865635462387847944_o.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 700px;
