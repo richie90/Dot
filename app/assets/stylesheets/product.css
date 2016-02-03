@@ -3,10 +3,12 @@ p {
     margin-top: 20px;
     padding: 0 50px 0 0px;
 }
-.product-info h5{
+.product-info {
   font-size: 18px;
   color: #696969;
 line-height:170%;
+max-width: 450px;
+
 }
 .simpleCart_shelfItem{
   margin-top: -18px;
