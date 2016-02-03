@@ -74,7 +74,7 @@ input[type=number] {
 }
 
 .jumbotron{
-  width: 1100px;
+  width: 100%;
 }
 .btn_form a {
     float: left;
