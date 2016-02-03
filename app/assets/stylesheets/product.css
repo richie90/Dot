@@ -3,7 +3,9 @@ p {
     margin-top: 20px;
     padding: 0 50px 0 0px;
 }
-
+.simpleCart_shelfItem{
+  margin-top: -18px;
+}
 .product-title{
   font-size: 25px;
   color: #696969;
@@ -59,7 +61,7 @@ input[type=number] {
 
     color: #696969;
     font-size: 25px;    
-    margin: 20px 0 5px;
+    margin:0 0 5px;
     display:block;
 }
 
@@ -99,7 +101,6 @@ input[type=number] {
   font-weight: bold;
 }
 
-.tab-pane p {
-  text-align: justify;
+.product-info {
+  font-size: 18px;
 }
-
