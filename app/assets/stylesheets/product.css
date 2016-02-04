@@ -210,8 +210,9 @@ input[type=number] {
 @media (max-width:320px){
 
   .btn_form a {
-    padding: 0 ;
-    float: right;
+    padding: 0 50px ;
+    text-align: center;
+    
   }
 
   .welcome-left {

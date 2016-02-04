@@ -71,52 +71,6 @@ font-weight: bold;
 }
 
 @media (max-width: 736px){
-  span.menu {
-    display: block;
-    cursor: pointer;
-    position: relative;
-    text-align: center;
-  }
-  ul.nav1{
-    display:none;
-    background:#464646;
-    }
-  .navigation ul.nav1 li {
-    display: inline-block;
-    text-align: center;
-      margin: 9px 0;
-    width: 100%;
-    padding: 0px 0;
-    }
-  .navigation ul {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 102px;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    width: 100%;
-  }
-  .logo {
-    width: 18%;
-  }
-  .search {
-    margin-top: 0px;
-  }
-  .navigation {
-    width: 37%;
-    margin-left: 92px;
-  }
-  .search {
-    width: 26%;
-  }
-  .tip-grid figure figcaption {
-    padding: 9px 9px 0px 9px;
-  }
-  .grid-one p {
-    font-size: 12px;
-  }
   h3.tittle-one {
     font-size: 34px;
   }
