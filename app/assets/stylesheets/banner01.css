@@ -74,6 +74,10 @@ font-weight: bold;
   h3.tittle-one {
     font-size: 34px;
   }
+  .nbs-flexisel-container {
+  position: relative;
+  max-width: 50%;
+}
 
 }
 @media (max-width: 667px){
@@ -87,13 +91,20 @@ font-weight: bold;
   .bottom-grid:nth-child(3), .bottom-grid:nth-child(4) {
     margin-top: 18px;
   }
+  .nbs-flexisel-container {
+  position: relative;
+  max-width: 50%;
+}
 }
 @media (max-width: 640px){
   .keep .keep2 {
     min-height: 240px;
     padding-top: 50px;
   }
- 
+ .nbs-flexisel-container {
+  position: relative;
+  max-width: 50%;
+}
 }
 
 @media (max-width: 480px){
@@ -124,6 +135,7 @@ font-weight: bold;
   .keep h3 {
     font-size: 25px;
   } 
+
 }
 /*-- //responsive media queries --*/
 .client h3{
