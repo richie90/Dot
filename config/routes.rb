@@ -5,6 +5,12 @@ Rails.application.routes.draw do
   get "mypage" => "pages#mypage" # creates mypage_path 
   get "news" => "pages#news"  # creates news_path
   get "product" => "pages#product" # creates product_path
+  get "faq" => "pages#faq" # creates faq_path
+  get "careers" => "pages#careers" # creates careers_path
+  get "policy" => "pages#policy" # creates pages_path
+  get "contact" => "pages#contact" # creates contact_path
+
+
 
     devise_scope :user do
     get '/users/sign_out' => 'devise/sessions#destroy'

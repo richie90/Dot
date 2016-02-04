@@ -126,3 +126,52 @@ font-weight: bold;
   } 
 }
 /*-- //responsive media queries --*/
+.client h3{
+  text-align: center;
+  color: #e1542c;
+  font-size: 30px;  
+}
+.client {
+    background-color: white;
+    padding: 20px 0 0 50px;
+}
+.sliderfig-grid {
+  margin: 20px 10px 0 10px;
+}
+/*--flexisel--*/
+#flexiselDemo1 {
+  display: none;
+}
+.nbs-flexisel-container {
+  position: relative;
+  max-width: 100%;
+}
+.nbs-flexisel-ul {
+  position: relative;
+  width: 9999px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+.nbs-flexisel-inner {
+  overflow: hidden;
+  margin: 0px auto;
+}
+.nbs-flexisel-item {
+  float: left;
+  margin: 0;
+  padding: 0px;
+  cursor: pointer;
+  position: relative;
+  line-height: 0px;
+}
+.nbs-flexisel-item > img {
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+

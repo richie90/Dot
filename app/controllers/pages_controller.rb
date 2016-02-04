@@ -13,4 +13,17 @@ class PagesController < ApplicationController
 
   def product
   end
+
+  def faq
+  end
+
+  def careers
+  end
+
+  def policy
+  end
+
+  def contact
+  end
+
 end
