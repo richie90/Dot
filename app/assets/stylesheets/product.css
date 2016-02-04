@@ -81,7 +81,7 @@ input[type=number] {
   width: 100%;
 }
 .btn_form a {
-    outline: none;
+    outline: none;    
     margin-left: 15px;
     display: inline-block;
     font-size: 0.9em;
@@ -153,6 +153,7 @@ input[type=number] {
 
   .btn_form a {
     padding: 0 180px ;
+    float: right;
   }
   .welcome-right {
     min-height: 463px;
@@ -163,6 +164,7 @@ input[type=number] {
 
   .btn_form a {
     padding: 0 170px ;
+    float: right;
   }
   .welcome-left {
     padding: 2em 2em 2em 2em;
@@ -175,7 +177,8 @@ input[type=number] {
 @media (max-width:768px){
 
   .btn_form a {
-    padding: 0 50px ;
+    padding: 0 170px ;
+    float: right;
   }
   .welcome-left {
     float: none;
@@ -193,7 +196,8 @@ input[type=number] {
 
 
   .btn_form a {
-    padding: 0 20px ;
+    padding: 0 50px ;
+    float: right;
   }
   .welcome-left h3, .about-left h3 {
     font-size: 2em;
@@ -207,6 +211,7 @@ input[type=number] {
 
   .btn_form a {
     padding: 0 ;
+    float: right;
   }
 
   .welcome-left {
