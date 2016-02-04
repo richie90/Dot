@@ -81,7 +81,6 @@ input[type=number] {
   width: 100%;
 }
 .btn_form a {
-    float: left;
     outline: none;
     margin-left: 15px;
     display: inline-block;
@@ -97,6 +96,7 @@ input[type=number] {
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     margin-bottom: 1em;
+
     
 }
 .btn_form a:hover {
@@ -152,7 +152,7 @@ input[type=number] {
 
 
   .btn_form a {
-    padding: 0 150px ;
+    padding: 0 180px ;
   }
   .welcome-right {
     min-height: 463px;
@@ -162,7 +162,7 @@ input[type=number] {
 @media (max-width:800px){
 
   .btn_form a {
-    padding: 0 100px ;
+    padding: 0 170px ;
   }
   .welcome-left {
     padding: 2em 2em 2em 2em;

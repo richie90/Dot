@@ -1,3 +1,44 @@
+/*--add-starts--*/
+.add{
+  padding:6em 0px;
+}
+.add-top{
+  text-align:center;
+}
+.add-bottom{
+  margin-top:4%;
+}
+.add-left{
+  padding:0;
+  text-align:center;
+}
+.add-left img{
+  width:100%;
+}
+.add-left h4 {
+    color: #FECD67;
+    font-size: 3.7em;
+    margin: 22% 0 0 0;
+}
+.add-left h5 {
+    color: #F25826;
+    font-size: 1.9em;
+    line-height: 1.3em;
+    margin: 5px auto 0;
+    width: 90%;
+}
+.add-left p {
+    color: #999;
+    font-size: 17px;
+    line-height: 1.6em;
+    padding: 0 15px;
+    margin-top: 2px;
+}
+/*--add-end--*/
+
+
+
+
 /* Team Member CSS 
 ===========================*/
 
