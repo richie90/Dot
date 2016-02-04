@@ -144,7 +144,7 @@ font-weight: bold;
 }
 .nbs-flexisel-container {
   position: relative;
-  max-width: 98%;
+  max-width: auto;
 }
 .nbs-flexisel-ul {
   position: relative;
