@@ -151,7 +151,7 @@ font-weight: bold;
     padding: 40px 0 0 0;
 }
 .sliderfig-grid {
-  margin: 20px 10px 0 0;
+  margin: 20px 10px 0 10px;
 }
 /*--flexisel--*/
 #flexiselDemo1 {
@@ -159,8 +159,9 @@ font-weight: bold;
 }
 .nbs-flexisel-container {
   position: relative;
-  max-width: 95%;
+  max-width: 97%;
   text-align: center;
+  margin-left: 10px;
 }
 .nbs-flexisel-ul {
   position: relative;
