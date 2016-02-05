@@ -148,10 +148,10 @@ font-weight: bold;
 }
 .client {
     background-color: white;
-    padding: 20px 0 0 50px;
+    padding: 40px 0 0 0;
 }
 .sliderfig-grid {
-  margin: 20px 10px 0 10px;
+  margin: 20px 10px 0 0;
 }
 /*--flexisel--*/
 #flexiselDemo1 {
@@ -159,7 +159,8 @@ font-weight: bold;
 }
 .nbs-flexisel-container {
   position: relative;
-  max-width: 98%;
+  max-width: 95%;
+  text-align: center;
 }
 .nbs-flexisel-ul {
   position: relative;
@@ -172,6 +173,7 @@ font-weight: bold;
 .nbs-flexisel-inner {
   overflow: hidden;
   margin: 0px auto;
+
 }
 .nbs-flexisel-item {
   float: left;
