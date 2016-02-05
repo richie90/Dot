@@ -195,46 +195,6 @@ div#service {
 .srv-two{
   margin-top:4%;
 }
-/*--demo--*/
-
-#demo {
-    padding: 5em 0;
-    float: center;
-    text-align: center;
-}
-.demo-top {
-    margin-top: 4em;
-}
-.demo-img img {
-       float: right;
-}
-.item-text {
-    background-color: #eee;
-    padding: 1em 1em;
-    margin-bottom: 1em;
-}
-.demo-text h4 {
-    font-size: 2.5em;
-       color: #e1542c;
-}
-.demo-text {
-    margin-top: -20px;
-}
-.pre-top {
-    margin-top: 2em;
-  
-}
-.item-text h6 {
-    float: right;
-    color: #2a292b;
-    font-size: 1em;
-    margin-top: 7px;
-}
-span.item_price {
-    float: left;
-    font-size: 1.3em;
-    color: #2a292b;
-}
 
 /*--news-starts--*/
 .news {
