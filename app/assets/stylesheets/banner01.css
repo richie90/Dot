@@ -48,7 +48,7 @@ font-weight: bold;
   padding-top: 80px;
 }
 
-@media (max-width: 1080px){
+@media screen and (max-width: 1080px){
   .keep .keep2{
     min-height: 295px;
     padding-top: 65px;
@@ -58,7 +58,7 @@ font-weight: bold;
     }
   
 }
-@media (max-width: 991px){
+@media screen and (max-width: 991px){
   .keep p {
     font-size: 13px;
   }
@@ -73,7 +73,7 @@ font-weight: bold;
 
 }
 
-@media (max-width: 736px){
+@media screen and (max-width: 736px){
   h3.tittle-one {
     font-size: 34px;
   }
@@ -83,7 +83,7 @@ font-weight: bold;
 }
 
 }
-@media (max-width: 667px){
+@media screen and (max-width: 667px){
   .bottom-grid {
     float: left;
     width: 50%;
@@ -99,7 +99,7 @@ font-weight: bold;
   max-width: 50%;
 }
 }
-@media (max-width: 640px){
+@media screen and (max-width: 640px){
   .keep .keep2 {
     min-height: 240px;
     padding-top: 50px;
@@ -110,14 +110,14 @@ font-weight: bold;
 }
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
   
   .keep h3 {
     font-size: 23px;
   }
   
 }
-@media (max-width: 414px){
+@media screen and(max-width: 414px){
 
   .keep h3 {
     font-size: 20px;
@@ -128,7 +128,7 @@ font-weight: bold;
  
 }
 
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
  
   .keep .keep2 {
     padding-top: 45px;
