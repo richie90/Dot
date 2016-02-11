@@ -6,9 +6,12 @@
   -o-background-size: cover;
   -ms-background-size: cover;
   -moz-background-size: cover;
-  min-height: auto;
-  width: auto;
   padding-top:80px;
+}
+
+.keep img {
+  width: auto;
+  height: auto;
 }
 .contents{
   float: right;
@@ -36,12 +39,13 @@ font-weight: bold;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  -moz-background-size: cover;
-  min-height: auto;
-  width: auto;
+  -moz-background-size: cover;  
   padding-top:80px;
 }
-
+.keep2 img {
+  width: auto;
+  height: auto;
+}
 
 .keep2 h3{
   color: white;
