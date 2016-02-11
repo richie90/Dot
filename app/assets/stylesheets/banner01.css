@@ -49,10 +49,7 @@ font-weight: bold;
 }
 
 @media screen and (max-width: 1080px){
-  .keep .keep2{
-    min-height: 295px;
-    padding-top: 65px;
-  }
+
   .keep p {
     font-size: 15px;
     }
@@ -62,10 +59,7 @@ font-weight: bold;
   .keep p {
     font-size: 13px;
   }
-  .keep .keep2 {
-    min-height: 278px;
-    padding-top: 60px;
-  }
+
  .nbs-flexisel-container {
   position: relative;
   max-width: 50%;
@@ -100,10 +94,7 @@ font-weight: bold;
 }
 }
 @media screen and (max-width: 640px){
-  .keep .keep2 {
-    min-height: 240px;
-    padding-top: 50px;
-  }
+
  .nbs-flexisel-container {
   position: relative;
   max-width: 50%;
@@ -122,20 +113,13 @@ font-weight: bold;
   .keep h3 {
     font-size: 20px;
   }
-  .keep .keep2 {
-    min-height:410px;
-    max-width: 400px;
-    }
+
  
 }
 
 @media only screen and (max-width: 320px){
  
-  .keep .keep2 {
-    padding-top: 45px;
-    min-height: 336px;
-    max-width: 340px;
-  }
+
   
   .keep h3 {
     font-size: 25px;
