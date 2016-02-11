@@ -1,11 +1,7 @@
 /*-- keep --*/
 .keep{
   background: url(https://scontent.xx.fbcdn.net/hphotos-xlp1/t31.0-8/12493525_877999838965633_640099131560879650_o.jpg) fixed;
-  background-size: cover;
-
   padding-top:80px;
-   background-repeat: no-repeat;
-   max-height: 900px;
 }
 
 .keep img {
@@ -35,11 +31,11 @@ font-weight: bold;
 .keep2{
   background: url(https://scontent.xx.fbcdn.net/hphotos-xtl1/t31.0-8/12671953_888517604580523_9072004113724767082_o.jpg) fixed;
   padding-top:80px;
-   background-repeat: no-repeat;
+   
 }
 .keep2 img {
   width: auto;
-  max-height: 900px;
+  max-height: 800px;
 }
 
 .keep2 h3{
