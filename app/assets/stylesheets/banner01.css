@@ -7,6 +7,7 @@
   -ms-background-size: cover;
   -moz-background-size: cover;
   min-height: auto;
+  width: auto;
   padding-top:80px;
 }
 .contents{
@@ -37,6 +38,7 @@ font-weight: bold;
   -ms-background-size: cover;
   -moz-background-size: cover;
   min-height: auto;
+  width: auto;
   padding-top:80px;
 }
 
@@ -50,7 +52,7 @@ font-weight: bold;
 }
 
 
-/*-- //responsive media queries --*/
+
 .client h3{
   text-align: center;
   color: #e1542c;
