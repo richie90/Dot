@@ -195,64 +195,6 @@ div#service {
 .srv-two{
   margin-top:4%;
 }
-
-/*--news-starts--*/
-.news {
-    
-    background-color: #f4f4f4;
-}
-.news-top{
-  text-align:center;
-}
-.news-bottom{
-  margin-top:4%;
-}
-.news-left{
-  padding:0;
-}
-.news-left img{
-width: 100%;
-}
-.news-right {
-  padding: 60px 40px;
-  border: 1px solid rgb(230, 229, 229);
-}
-.news-right h4{
-  margin:0;
-}
-.news-right a h4 {
-  color:#e1542c;
-  font-size:2em;
-  margin: 0;
-
-}
-.news-right a h4:hover{
-  color:black;
-  text-decoration: none;
-}
-.news-right h5{
-  color:#2a292b;
-  margin:10px 0px;
-  font-size:1em;
-}
-p.one{
-  color:#555;
-  line-height:1.9em;
-  font-size:1em;
-  margin-top:10px;
-}
-.news-one{
-  margin-top:2.5%;
-}
-.news-one:nth-child(1){
-  margin-top:0%;
-}
-/*--news-end--*/
-
-
-
-
-
 /*--Starts-Responsive--*/
 @media (max-width:1440px){
   .banner {
@@ -316,17 +258,7 @@ p.one{
     margin-top: 0.8em;
     }
  
-  .news-right a h4 {
-      font-size: 1.9em;
-  }
-  .news-right h5 {
-    margin: 10px 0px;
-    font-size: 0.9em;
-  }
-  .news-right {
-    padding: 1.9em 1em 1.9em 1em;
-    border: 1px solid rgb(230, 229, 229);
-  }
+ 
   .demo-text h4 {
       font-size: 2em;
   }
@@ -369,9 +301,7 @@ p.one{
     padding: 4em 0;
   }
   
-  .news-right {
-      padding: 2em 2em 2em 2em;
-  }
+ 
 }
 @media (max-width:800px){
   .banner {
@@ -468,12 +398,7 @@ p.one{
     margin-top: 0.8em;
   }
 
-  .news-right a h4 {
-       font-size: 1.7em;
-    }
-  .news {
-    padding: 4em 0;
-  }
+ 
 
 }
 @media (max-width:384px){
@@ -531,20 +456,7 @@ p.one{
     margin: 0.5em 0;
     font-size: 0.9em;
   }
-  
-  .news {
-    padding: 2.5em 0;
-  }
-  .news-right {
-    padding: 1em 1em;
-  }
-  .news-right a h4 {
-    font-size: 1.5em;
-  }
-  p.one {
-    font-size: 0.9em;
-    margin-top: 10px;
-  }
+
   #demo {
     padding: 2.5em 0;
   }
@@ -611,19 +523,7 @@ p.one{
   }
 
   
-  .news {
-    padding: 2.5em 0;
-  }
-  .news-right {
-    padding: 1em 1em;
-  }
-  .news-right a h4 {
-    font-size: 1.5em;
-  }
-  p.one {
-    font-size: 0.9em;
-    margin-top: 10px;
-  }
+ 
   #demo {
     padding: 2.5em 0;
   }
