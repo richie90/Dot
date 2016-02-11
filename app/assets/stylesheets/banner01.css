@@ -117,22 +117,24 @@ font-weight: bold;
   }
   
 }
-@media screen and(max-width: 414px){
+@media only screen and(max-width: 414px){
 
   .keep h3 {
     font-size: 20px;
   }
   .keep .keep2 {
-    min-height: 265px;
+    min-height:410px;
+    max-width: 400px;
     }
  
 }
 
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
  
   .keep .keep2 {
     padding-top: 45px;
     min-height: 336px;
+    max-width: 340px;
   }
   
   .keep h3 {
