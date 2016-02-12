@@ -195,70 +195,60 @@ div#service {
 .srv-two{
   margin-top:4%;
 }
-
-
-/*-- wlcome --*/
-.wlcome,.welcome-bottom,.video,.banner-bottom,.typo,.contact,.about,.menu{
-  padding:5em 0;
-}
-.wlcome-grid-left h3,.welcome-bottom h3,.banner-bottom h3,h3.title,.testimonials h3,.why-choose h3,.menu h3{
-  font-size:2em;
-  color:#D9A250;
-  text-align:center;
-  text-transform:capitalize;
-}
-.nihil{
-  font-size:14px;
-  text-align:center;
-  margin:0;
-  line-height:1.8em;
-  color:#999;
-}
-.wlcome-grid-left-grid h4{
-  font-size:1.3em;
-  color:#A3A3A3;
-  margin:2em 0 0;
-  text-transform:capitalize;
-}
-.wlcome-grid-left-grid p{
-  color:#999;
-  font-size:14px;
-  line-height:1.8em;
-  margin:1em 0 0;
-}
-.wlcome-grid-left-grid:nth-child(3){
-  margin:2em 0;
-}
-
 /*-- video --*/
-.video-grid-left iframe{
-  width:100%;
-  min-height:280px;
+/*      5.2: About section
+/* ---------------------------------------------- */
+.about h2{
+  font-size: 34px;
+  text-align: center;
 }
-.video-grid-left h3{
-  font-size: 24px;
-    color: #e1542c;
-    margin: 0;
-    line-height: 1.5em;
-    text-transform: capitalize;
+.about h3{
+  font-size: 20px;
 }
-.video-grid-left p{
-  color:#999;
-  font-size:18px;
-  line-height:1.8em;
-  margin:1em 0 2em;
-  text-align: justify;
-}
-.m1 a{
-  
-  color:#999;
-}
-.m1 a:hover{
-  color: #e1542c;
-  text-decoration: none;
+.about h2,.about h3{
+    margin: 0 0 10px 0;
+    padding: 0;
 }
 
+blockquote { 
+    display: block;
+    font-size: 22px;
+    position: relative; 
+    padding-left: 90px;
+    color: rgba(254,82,76, 1);
+    border-color: rgba(254,82,76, 1);
+}
+ 
+blockquote:before {
+    content: "\f10d";
+    font-size: 55px; 
+    font-family: FontAwesome;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+}
+
+blockquote span:before{
+    content:'--';
+    padding: 0 10px 0 0;
+}
+
+blockquote span{
+    padding: 10px 0;
+    display: block;
+    font-size: 16px;
+    color: #999;
+}
+
+.embed-responsive{
+ margin-top: 30px;
+ padding-top: 100px;
+}
 /*-- //video --*/
+
+
+
+
 /*--Starts-Responsive--*/
 @media (max-width:1440px){
   .banner {
@@ -322,7 +312,6 @@ div#service {
     margin-top: 0.8em;
     }
  
- 
   .demo-text h4 {
       font-size: 2em;
   }
@@ -365,7 +354,6 @@ div#service {
     padding: 4em 0;
   }
   
- 
 }
 @media (max-width:800px){
   .banner {
@@ -462,7 +450,7 @@ div#service {
     margin-top: 0.8em;
   }
 
- 
+
 
 }
 @media (max-width:384px){
@@ -520,6 +508,8 @@ div#service {
     margin: 0.5em 0;
     font-size: 0.9em;
   }
+  
+ 
 
   #demo {
     padding: 2.5em 0;
@@ -587,7 +577,6 @@ div#service {
   }
 
   
- 
   #demo {
     padding: 2.5em 0;
   }
