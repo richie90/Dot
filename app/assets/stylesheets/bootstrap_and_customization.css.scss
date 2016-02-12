@@ -8,8 +8,9 @@ $navbar-default-link-color:        #34495e;
 $navbar-default-link-hover-color:  #e1542c;
 $jumbotron-bg:                     #F8F8F8;
 
-
-
+html {
+  min-width: 400px;
+}
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
