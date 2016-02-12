@@ -215,8 +215,8 @@ blockquote {
     font-size: 22px;
     position: relative; 
     padding-left: 90px;
-    color: rgba(254,82,76, 1);
-    border-color: rgba(254,82,76, 1);
+    color: #e1542c;
+    border-color: #e1542c;
 }
  
 blockquote:before {
