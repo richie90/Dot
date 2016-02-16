@@ -40,43 +40,6 @@
 }
 
 
-/*-- keep --*/
-.keep{
-  background: url(https://scontent.xx.fbcdn.net/hphotos-xlp1/t31.0-8/12493525_877999838965633_640099131560879650_o.jpg) fixed;
-  padding-top:80px;
-      background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 800px;
-}
-
-.keep img {
-  width: auto;
-  height: auto;
-}
-.contents{
-  float: right;
-}
-.keep h3{
-  color: #e1542c;
-  font-size: 40px;
-  font-weight: bold;
-}
-.keep p{
-font-size:18px;
-color:black;
-font-weight: bold;
-}
-.keep ul{  
-  font-size: 18px;
-  font-weight: bold;
-}
-/*-- //keep --*/
-
-
-
 
 
 
