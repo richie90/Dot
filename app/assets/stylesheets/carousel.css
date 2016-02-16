@@ -141,60 +141,132 @@ a.con:hover{
   color:white;
 }
 
-/*--services--*/
-div#service {
-    padding: 5em 0;
+
+
+/*      5.3: Services section ("What we do")
+/* ---------------------------------------------- */
+
+.services-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: #F8F8F8 #F8F8F8  #e1542c #e1542c; /* Primary color, can be changed via colors.css */
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+    /* Firefox 3.0 damage limitation */
+    display: block;
+    width: 0;
 }
- h3.tittle {
-    font-size: 3em;
-    text-align: center;
-  }
-.service-bottom{
-  margin-top:4%;
+
+
+.services-item{
+    background: #F8F8F8 ;
+    padding: 30px 20px 20px;
+    margin: 15px 0 80px ;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+     -webkit-transition: background .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out;
+             transition: background .5s ease-in-out;
 }
-.about-left span {
-    font-size: 2.2em;
-    margin-top: 15%;
-    color: #2A292B;
-    border: 2px solid #2A292B;
-    padding: 20px 20px;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -o-border-radius: 40px;
-    -ms-border-radius: 40px;
+
+.services-item h2{
+    color: #e1542c;
+}    
+
+.services-item h4{
+    color: #e1542c;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
 }
-.about-left span:hover {
-     color:#e1542c;
-     border: 2px solid #e1542c;
-     transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+
+
+.services-item p{
+    padding: 0;
+    margin: 0;
+    color:#999;
+    font-size: 16px;
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
 }
-.about-left h4{
-  color:#e1542c;
-  font-size:1.7em;
-  margin:0;
+
+
+.services-item i{
+    color: #e1542c;
+    padding: 0;
+    margin: 0 0 10px 0;
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
 }
-.about-left p{
-  font-size:1em;
-  line-height:1.9em;
-  margin-top:12px;
-  color:#555;
+
+.services-item:hover{
+    background:#e1542c;
+     -webkit-transition: background .2s ease-in-out;
+        -moz-transition: background .2s ease-in-out;
+             transition: background .2s ease-in-out;
 }
-.ab-left{
-  width:20%;
-  float:left;
+
+
+.services-item:hover h4{
+    color:#fff;
+            transform: translate(0,-5px);
+     -webkit-transform: translate(0,-5px);
+          -o-transform: translate(0,-5px); 
+        -moz-transform: translate(0,-5px);
+     -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+             transition: all .3s ease-in-out;
 }
-.ab-right{
-  width:80%;
-  float:right;
+
+.services-item:hover p{
+    color:#fff;
+            transform: translate(0,-10px);
+     -webkit-transform: translate(0,-10px);
+          -o-transform: translate(0,-10px); 
+        -moz-transform: translate(0,-10px);
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
 }
-.srv-two{
-  margin-top:4%;
+
+.services-item:hover i{
+    color:#fff;
+            transform: translate(0,-5px);
+     -webkit-transform: translate(0,-5px);
+          -o-transform: translate(0,-5px); 
+        -moz-transform: translate(0,-5px);
+     -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out;
 }
+
+.services-item:hover:before{
+    border-color: #F8F8F8  #F8F8F8  #555  #555;
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+}
+
+
+
+
+
+
 /*-- video --*/
 /*      5.2: About section
 /* ---------------------------------------------- */
@@ -297,11 +369,6 @@ blockquote span{
     margin-top: 0.8em;
   }
 
-  h3.tittle {
-    font-size: 2.5em;
-    text-align: center;
-  }
-
    .ab-text h2 {
     font-size: 2em;
   }
@@ -322,19 +389,6 @@ blockquote span{
     min-height: 580px;
   }
 
-  .ab-left {
-    padding: 0;
-  }
-  div#service {
-    padding: 4em 0;
-  }
-
- 
-  h3.tittle {
-    font-size: 2.4em;
-    text-align: center;
-  }
- 
   .banner-info {
     margin-top: 14em;
     text-align: center;
@@ -365,18 +419,6 @@ blockquote span{
     margin-top: 1em;
   }
    
-  .ab-left {
-    padding: 0;
-  }
-  div#service {
-    padding: 4em 0;
-  }
- 
-  h3.tittle {
-    font-size: 2.4em;
-    text-align: center;
-  }
- 
   .banner-info {
     margin-top: 14em;
     text-align: center;
@@ -454,17 +496,7 @@ blockquote span{
 
 }
 @media (max-width:384px){
-  .ab-right {
-    width: 100%;
-    float: right;
-    text-align: center;
-  }
-  .ab-left {
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-bottom: 0.5em;
-  }
+
   div#service {
     padding: 2.5em 0;
   }
@@ -520,17 +552,7 @@ blockquote span{
   }
 }
 @media (max-width:375px){
-  .ab-right {
-    width: 100%;
-    float: right;
-    text-align: center;
-  }
-  .ab-left {
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-bottom: 0.5em;
-  }
+
   div#service {
     padding: 2.5em 0;
   }
@@ -564,13 +586,6 @@ blockquote span{
 
 
 
-  .ab-left span {
-      font-size: 2.2em;
-      margin-top: 5%;
-  }
-  .ab-left p {
-      font-size: 0.9em;
-  }
   .ab-text p {
     margin: 0.5em 0;
     font-size: 0.9em;
@@ -598,9 +613,6 @@ blockquote span{
   .banner-info {
     margin-top: 8em;
   }
-  h3.tittle {
-    font-size: 2em;
-    text-align: center;
-  }
+
  
 }
