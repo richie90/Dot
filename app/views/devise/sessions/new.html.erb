@@ -1,40 +1,37 @@
+<head>
+    <link rel="stylesheet" href="account.css" media="all" type="text/css">
+</head>
+<body>
 <div class="container">
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <div class="panel-title">
-      <h2>Account</h2>
+  <div id="slideBox">
+    <div class="topLayer">
+      <div class="right">
+        <div class="content">
+          <h2>Login</h2>
+          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="form-group">  
+            <%= f.text_field :email, class: "form-control", placeholder: "Email", required: true, autofocus: true  %>
+          </div>
+          <div class="form-group">       
+            <%= f.password_field :password, class: "form-control", placeholder: "Password", required: true, autocomplete: "off" %>
+          </div>
+
+          <div class="form-group">
+            <%= link_to "Forgot Your Password?", new_user_password_path %>
+            <%= f.submit "Login", class: "login-btn" %>
+          </div> 
+
+          
+          <div class="form-group">
+            <h5>Not a member? <%= link_to "Sign up now", new_user_registration_path %></h5>           
+            <% end %>
+          </div>
+          
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="panel-body">
-    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="account_grid">
-    <div class="col-md-6 login-right">
-
-     <div class="form-group">
-       <%= f.label :email %><br />
-       <%= f.email_field :email, class: "form-control", autofocus: true %>
-     </div>
-
-     <div class="form-group">
-       <%= f.label :password %><br />
-       <%= f.password_field :password, class: "form-control", autocomplete: "off" %>
-     </div>
-
-     <div class="form-group">
-      <%= link_to "Forgot Your Password?", new_user_password_path %>
-      <%= f.submit "Log in", class: "login-btn" %>
-     </div>
-     <% end %>
-    </div>
-  </div>
-
-
-    <div class="col-md-6 login-left">
-      <h4>NEW CUSTOMERS</h4>
-      <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-      <a class="acount-btn" href="/users/sign_up">Create an Account</a>
-    </div>
-
   </div>
 </div>
-</div>
+
+</body>
+

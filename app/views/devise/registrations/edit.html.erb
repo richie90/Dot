@@ -1,4 +1,8 @@
-<div class="container">
+<head>
+    <link rel="stylesheet" href="account.css" media="all" type="text/css">
+</head>
+<body>
+<<div class="container">
 <div class="panel panel-default">
   <div class="panel-heading">
     <div class="panel-title">
@@ -20,15 +24,14 @@
     <%= f.email_field :email, class: "form-control", autofocus: true %>
   </div>
 
+  <div class="form-group">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password, class: "form-control", autocomplete: "off" %>
+  </div>
 
   <div class="form-group">
     <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
     <%= f.password_field :password, class: "form-control", autocomplete: "off" %>
-  </div>
-
-  <div class="form-group">
-    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-    <%= f.password_field :current_password, class: "form-control", autocomplete: "off" %>
   </div>
 
   <div class="form-group">
@@ -40,60 +43,9 @@
   <div class="panel-footer">
     <h3>Cancel my account</h3>
 
-    <%= button_to "Delete my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "delete-btn" %>
-
-    <%= link_to "Back", :back %>
+    <%= button_to "Delete my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "delete-btn" %> or <%= link_to "Back", mypage_path %>
   </div>
 </div> 
  </div>
- <style>
- .update-btn {
-
-    margin:5px;   
-    outline: none;
-    display: inline-block;
-    font-size: 0.9em;
-    padding: 0.5em 1em;
-    border: 2px solid #49a3df;
-    background: #49a3df;
-    color: #fff;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
-.update-btn:hover:hover{
-  background: transparent;
-    border-color: #5D4B33;
-    color:#5D4B33;
-    text-decoration: none;
-}
-
-.delete-btn {
-
-    margin:5px;   
-    outline: none;
-    display: inline-block;
-    font-size: 0.9em;
-    padding: 0.5em 1em;
-    border: 2px solid #e1542c;
-    background: #e1542c;
-    color: #fff;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
-.delete-btn:hover:hover{
-  background: transparent;
-    border-color: #5D4B33;
-    color:#5D4B33;
-    text-decoration: none;
-}
-</style>
+</body>
+ 

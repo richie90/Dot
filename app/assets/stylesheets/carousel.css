@@ -107,33 +107,24 @@
 .banner-info h3 {
   font-size: 70px;
   font-weight: 400;
-  color: #e1542c;
+  color: #808284;
   margin-bottom: 0.3em;
 }
 a.con {
-  border: 3px solid black;
-  color: black;
+  color: white;
   text-decoration: none;
   overflow : hidden;
   font-size: 1.2em;
   cursor: pointer; 
   padding: 0.8em 2em;
+  margin-top:200px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .1em;  
   font-weight: 500;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-appearance: none;
   display: inline-block;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -o-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -moz-border-radius: 30px;
+  background-color: #a7a9ac;
+
 }
 a.con:hover{
   background:#e1542c;

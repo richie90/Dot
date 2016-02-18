@@ -1,0 +1,188 @@
+.content h2{
+  margin: 150px 0 0 14px;
+   color: #03A9F4;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.panel-body{
+  margin-top: 10px;
+
+}
+.panel-title{
+  text-align: center;
+  font-weight: bold;  
+}
+.form-group{
+  margin-top: 20px;
+  text-align: center;
+}
+.form-control{
+    width: 150px;
+    height: 40px;
+}
+.acount-btn {
+   	margin-right: 45px;
+    margin:5px;   
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #e1542c;
+    background: #e1542c;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.acount-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
+.update-btn {
+
+    margin:5px;   
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #e1542c;
+    background: #e1542c;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.update-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
+
+.account_grid{
+  text-align: center;
+}
+
+.log-in{
+ margin-top: 3px;
+
+}
+.login-btn {
+ 
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 28px;
+    border: 2px solid #e1542c;
+    background: #e1542c;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    
+}
+.login-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
+
+
+.panel-default{
+  margin-top: 100px;
+}
+
+.panel-title h2 {
+  color: #03A9F4;
+}
+
+.panel-footer h3{
+  color: #03A9F4;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9;
+  right: 0;
+  position: relative;
+}
+
+.content {
+  width: 250px;
+  margin: 0 auto;
+  top: 30%;
+  position: relative;
+  left: 50%;
+  margin-left: -125px;
+}
+
+
+
+
+.update-btn {
+
+    margin:5px;   
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #49a3df;
+    background: #49a3df;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.update-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
+
+.delete-btn {
+
+    margin:5px;   
+    outline: none;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 2px solid #e1542c;
+    background: #e1542c;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.delete-btn:hover:hover{
+  background: transparent;
+    border-color: #5D4B33;
+    color:#5D4B33;
+    text-decoration: none;
+}
