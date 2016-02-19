@@ -1,0 +1,51 @@
+/*-- contact --*/
+.contact {
+ margin-top: 70px;
+}
+.contact-form {
+	padding-top: 3em;
+}
+.contact-form-left {
+	
+float: left;
+margin-left: 100px;
+}
+
+.contact-form-right {
+ float: right;
+
+}
+
+.contact-form-right p {
+	color: #999;
+    font-size: 14px;
+    margin: 0 auto 1em;
+    line-height: 1.8em;
+}
+.contact-form-right h2 {
+ margin-top: -60px;
+ margin-bottom: 50px;
+
+}
+
+.contact-form-right h4{
+	margin-bottom: 20px;
+	color:  #A6A9AB;
+}
+.contact-form-right a{
+	color: #A6A9AB;
+	font-size: 17px;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.contact-form-right a:hover{
+	
+	text-decoration:none;
+	transition:.5s all;
+}
+
+.contact h5 {
+line-height: 30px;
+color: #808184;
+}
+/*-- //contact --*/
