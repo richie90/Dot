@@ -55,7 +55,7 @@ color: #808184;
 
 @media (max-width:991px){
 	.contact-form-left {
-	
+width:350px;	
 float: left;
 margin-left:0;
 }
@@ -63,7 +63,7 @@ margin-left:0;
 
 @media (max-width:640px){
 .contact-form-left {
-width:70%;	
+width:350px;	
 float: left;
 margin-left:0;
 }
@@ -72,7 +72,7 @@ margin-left:0;
 
 @media (max-width:400px){
 .contact-form-left {
-width:70%;	
+width:350px;	
 float: left;
 margin-left:0;
 }
@@ -83,7 +83,7 @@ margin-left:0;
 
 @media (max-width:320px){
 .contact-form-left {
-width:70%;	
+width:350px;	
 float: left;
 margin-left:0;
 }
