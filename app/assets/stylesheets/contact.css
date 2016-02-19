@@ -54,11 +54,19 @@ color: #808184;
 /*-- //contact --*/
 
 @media screen and (max-width:991px){
-	.map-img {
-		
+.map-img {
+
 width:350px;	
 float: left;
 margin-left:0;
+}
+
+.contact h5
+.contact-form-right a
+.contact-form-right h4
+.contact-form-right h2
+.contact-form-right p {
+	text-align: center;
 }
 
 }
@@ -68,18 +76,33 @@ margin-left:0;
 
 @media screen and (max-width:480px){
 .map-img{
-width:250px;	
+width:300px;	
 float: left;
 margin-left:0;
+}
+.contact h5
+.contact-form-right a
+.contact-form-right h4
+.contact-form-right h2
+.contact-form-right p {
+	text-align: center;
 }
  
 }
 
 @media screen and (max-width:320px){
 .map-img{
-width:200px;	
+width:250px;	
 float: left;
 margin-left:0;
+}
+
+.contact h5
+.contact-form-right a
+.contact-form-right h4
+.contact-form-right h2
+.contact-form-right p {
+	text-align: center;
 }
  
 }
