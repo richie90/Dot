@@ -8,11 +8,13 @@
 .contact-form-left {
 	
 float: left;
-margin-left: 100px;
+margin-left: 100px ;
+margin-bottom: 100px;
 }
 
 .contact-form-right {
  float: right;
+ margin-top: -50px;
 
 }
 
@@ -23,7 +25,7 @@ margin-left: 100px;
     line-height: 1.8em;
 }
 .contact-form-right h2 {
- margin-top: -60px;
+margin-top: 0;
  margin-bottom: 50px;
 
 }
@@ -49,3 +51,40 @@ line-height: 30px;
 color: #808184;
 }
 /*-- //contact --*/
+
+@media (max-width:991px){
+	.contact-form-left {
+	
+float: left;
+margin-left:0;
+}
+}
+
+@media (max-width:640px){
+.contact-form-left {
+	
+float: left;
+margin-left:0;
+}
+
+}
+
+@media (max-width:400px){
+.contact-form-left {
+	
+float: left;
+margin-left:0;
+}
+ 
+}
+
+
+
+@media (max-width:320px){
+.contact-form-left {
+	
+float: left;
+margin-left:0;
+}
+ 
+}
