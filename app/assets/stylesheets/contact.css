@@ -27,6 +27,7 @@ margin-bottom: 100px;
 .contact-form-right h2 {
 margin-top: 0;
  margin-bottom: 50px;
+ color: #57585A;
 
 }
 
@@ -41,7 +42,7 @@ margin-top: 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .contact-form-right a:hover{
-	
+	color:#D1D2D4;
 	text-decoration:none;
 	transition:.5s all;
 }
