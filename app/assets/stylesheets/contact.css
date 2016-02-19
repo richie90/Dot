@@ -55,6 +55,7 @@ color: #808184;
 
 @media screen and (max-width:991px){
 	.map-img {
+		
 width:350px;	
 float: left;
 margin-left:0;
@@ -67,7 +68,16 @@ margin-left:0;
 
 @media screen and (max-width:480px){
 .map-img{
-width:350px;	
+width:250px;	
+float: left;
+margin-left:0;
+}
+ 
+}
+
+@media screen and (max-width:320px){
+.map-img{
+width:200px;	
 float: left;
 margin-left:0;
 }
