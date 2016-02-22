@@ -51,6 +51,8 @@ margin-top: 0;
 line-height: 30px;
 color: #808184;
 }
+
+
 /*-- //contact --*/
 
 @media screen and (max-width:991px){
@@ -61,11 +63,7 @@ float: left;
 margin-left:0;
 }
 
-.contact h5
-.contact-form-right a
-.contact-form-right h4
-.contact-form-right h2
-.contact-form-right p {
+.contact h5, .contact-form-right a, .contact-form-right h4, .contact-form-right h2, .contact-form-right p {
 	text-align: center;
 }
 
@@ -80,13 +78,10 @@ width:330px;
 float: left;
 margin-left:0;
 }
-.contact h5
-.contact-form-right a
-.contact-form-right h4
-.contact-form-right h2
-.contact-form-right p {
-margin-left: 50px;
+.contact h5, .contact-form-right a, .contact-form-right h4, .contact-form-right h2, .contact-form-right p {
+	text-align: center;
 }
+
  
 }
 
@@ -96,14 +91,10 @@ width:300px;
 float: left;
 margin-left:0;
 }
-
-.contact h5
-.contact-form-right a
-.contact-form-right h4
-.contact-form-right h2
-.contact-form-right p {
-margin-left: 50px;
-	
+.contact h5, .contact-form-right a, .contact-form-right h4, .contact-form-right h2, .contact-form-right p {
+	text-align: center;
 }
+
+
  
 }
