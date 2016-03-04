@@ -1,0 +1,28 @@
+<!DOCTYPE htmel>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+
+<% if user_signed_in? %>
+<div class= "container">
+  <div class="product">   
+    <div class= "add-cart">
+      <div class="product-line-price">299.00</div>
+
+      <div class="btn">remove</div>
+    </div>
+  </div>
+</div>
+<% else %>
+    <%= link_to "Log in", new_user_session_path %>
+<% end %>
+
+</html>
+
+
+
+<script>
+
+
+</script>

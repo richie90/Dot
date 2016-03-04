@@ -14,6 +14,10 @@ class PagesController < ApplicationController
   def product
   end
 
+  def cart
+  end
+
+
   def faq
   end
 
