@@ -46,7 +46,8 @@
 .client h3{
   text-align: center;
   color: #e1542c;
-  font-size: 30px;  
+  font-size: 30px;
+  margin-bottom: 40px;  
 }
 .client {
     background-color: white;
